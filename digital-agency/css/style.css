@@ -825,15 +825,15 @@ header{
 
 
 /* ===================================
-   Services
+   Service
 ====================================== */
 .about-sec{
     background-color:#39c5de;
     position: relative;
     overflow: visible;
     margin-top: 120px;
-    padding-top: 120px;
-    padding-bottom: 200px;
+    padding-top: 200px;
+    padding-bottom: 300px;
 }
 
 #about-header-svg{
@@ -894,7 +894,7 @@ header{
 }
 .about-sec .services-area .services .service-card .icon-holder i{
     color: #FFFFFF;
-    font-size: 120px;
+    font-size: 70px;
 }
 .about-sec .services-area .services:hover .service-card .icon-holder{
     animation: .8s pulse infinite;
@@ -2777,7 +2777,7 @@ header{
     }
 
     .about-sec .services-area .services .service-card .icon-holder i {
-        font-size: 110px;
+        font-size: 80px;
     }
 
     .about-sec .services-area .services .service-card .card-heading {
