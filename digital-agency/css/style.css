@@ -479,7 +479,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 50px;
 }
 .side-menu .navbar-brand img{
@@ -532,7 +532,7 @@ header{
     margin-right: 1rem;
     position: absolute;
     right: 15px;
-    top: 108px;
+    top: 70px;
     display: inline-block;
 }
 
@@ -743,7 +743,7 @@ header{
 ====================================== */
 
 .banner{
-    background-image: url("../../assets/images/purple.jpg");
+    background-image: url("../../assets/images/shutterstock/couple.jpg");
     width: 100%;
     background-size:cover;
     background-position: center;
@@ -847,7 +847,7 @@ header{
 }
 
 .service-details{
-    transform: translateY(-132px);
+    transform: translateY(-55px);
     /*transition: .8s ease all;*/
 }
 
@@ -2442,7 +2442,7 @@ header{
     .sidemenu_btn {
         position: absolute;
         right: 130px;
-        top: 92px;
+        top: 74px;
     }
     .sidemenu_btn i {
         font-size: 30px;
@@ -2657,7 +2657,7 @@ header{
 
     .sidemenu_btn {
         right: 27px;
-        top: 96px;
+        top: 66px;
     }
 
     .lastest-blog .pot-2 {
@@ -2716,7 +2716,7 @@ header{
 @media (min-width: 768px) and (max-width: 991.98px) {
 
     .sidemenu_btn {
-        top: 105px !important;
+        top: 72px !important;
     }
 }
 
@@ -2732,7 +2732,7 @@ header{
     }
 
     .sidemenu_btn {
-        top: 87px;
+        top: 72px;
     }
 }
 
