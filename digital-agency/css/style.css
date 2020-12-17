@@ -946,6 +946,7 @@ header{
     font-weight: 400;
 }
 
+/*
 .skill-sec .skill-bars{
     padding-top: 60px;
 }
@@ -981,7 +982,7 @@ header{
     height: 15px !important;
     overflow: visible;
     /*margin-right: 15px;*/
-}
+/*}
 .skill-sec  .skill-bars .progress-item {
     padding-right: 15px;
 }
@@ -1003,6 +1004,22 @@ header{
     display: inline-block;
     float: left;
 }
+*/
+
+.step-wrapper {
+    width: 100%;
+    margin-bottom: 10vh;
+    display: flex;
+}
+
+.step {
+    width: 40%!important;
+}
+
+.step-wrapper:nth-child(even) {
+    justify-content: flex-end;
+}
+
 
 
 /* ===================================
