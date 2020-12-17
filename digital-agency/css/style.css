@@ -946,6 +946,10 @@ header{
     font-weight: 400;
 }
 
+.skill-header {
+    margin-bottom: 15vh;
+}
+
 /*
 .skill-sec .skill-bars{
     padding-top: 60px;
@@ -1008,17 +1012,30 @@ header{
 
 .step-wrapper {
     width: 100%;
-    margin-bottom: 10vh;
     display: flex;
-}
-
-.step {
-    width: 40%!important;
+    margin-bottom: 10vh;
 }
 
 .step-wrapper:nth-child(even) {
     justify-content: flex-end;
 }
+
+.step {
+    width: 40%!important;
+    z-index: 5;
+}
+
+
+.number {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 260px;
+    color: hsla(0, 0%, 0%, 0.05);
+    position: absolute;
+    z-index: 1;
+    transform: translate(0px, -260px);
+
+}
+
 
 
 
