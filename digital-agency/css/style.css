@@ -71,6 +71,7 @@ a:active, a:hover{color: #02aeb3;}
 blockquote {border-left: 2px solid;padding: 10px 15px 10px 35px;margin: 25px 0;font-size: 18px;line-height: 28px;margin-top: 32px;margin-bottom: 32px;}
 blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .hidden{display: none;}
+.invisible{opacity: 0 !important;}
 section{padding: 7.5rem 0;}
 
 /* transition none */
@@ -1173,21 +1174,55 @@ header{
 }
 
 /***********************************/
-/*  PORTFOLIO CSS                   /
+/*  Contents CSS                   /
 /***********************************/
-.portfolio-sec{
+.contents-sec{
     margin-bottom: 30px;
     /*transition: .8s ease;*/
 }
-.portfolio-sec .container {
+.contents-sec .container {
     max-width: 1140px;
 }
-.portfolio-sec .heading{
+
+.contents-sec .heading{
     color: #202020;
     margin-bottom: 0;
     font-size: 50px;
     font-weight: bold;
+    margin-bottom: 30px;
 }
+
+.contents-sec .container .grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    gap: 5px;
+    padding: 10px;
+}
+
+.contents-sec .container .grid-container .grid-item {
+    padding: 5px 10px 5px 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #39c5de;
+    border-radius: 5px;
+    color: white;
+}
+
+.contents-sec .container .grid-container .grid-left {
+    justify-content: flex-start;
+}
+
+.contents-sec .container .grid-container .grid-header {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+
+
 .portfolio-sec .cbp-wrapper-outer {
     overflow: visible;
 }
