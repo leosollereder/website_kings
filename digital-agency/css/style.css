@@ -1021,8 +1021,13 @@ header{
 }
 
 .step {
-    width: 40%!important;
+    width: 40%;
     z-index: 5;
+}
+
+.colored-number {
+    padding-left: 10px;
+    color:  hsl(189, 75%, 55%);
 }
 
 
@@ -2191,6 +2196,18 @@ header{
         margin-bottom: 2rem;
     }
 
+
+    .step-wrapper {
+        justify-content: center!important;
+        text-align: left;
+        margin-bottom: 17vh;
+    }
+
+    .step-wrapper:nth-child(5) {
+        margin-bottom: 5vh;
+    }
+
+
     .team-item{
         margin-top: 4rem;
     }
@@ -2531,6 +2548,11 @@ header{
     .service-details p {
         width: 100%;
     }
+
+    .step {
+        width: 70%!important;
+    }
+
     #banner_svg {
         bottom: -1px;
         height: 100px;
