@@ -1095,8 +1095,6 @@ header{
     border: none;
     z-index: 1000;
     width: 25%;
-    margin-top: 2%;
-    margin-bottom: 2%;
 }
 
 .team-section .card:hover{
@@ -1193,11 +1191,9 @@ header{
 }
 
 .contents-sec .container .grid-container {
-    width: 100%;
     display: grid;
-    grid-template-columns: 40% 19% 19% 19%;
+    grid-template-columns: 38% 20% 20% 20%;
     gap: 5px;
-    padding: 10px;
     overflow: auto;
     box-sizing: content-box;
 }
@@ -2311,6 +2307,8 @@ header{
 
     .team-section .card {
         width: 46%;
+        margin-top: 2%;
+        margin-bottom: 2%;
     }
 
     body{
@@ -2652,6 +2650,8 @@ header{
 
     .team-section .card {
         width: 80%;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
 
