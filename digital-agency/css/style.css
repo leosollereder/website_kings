@@ -1195,10 +1195,11 @@ header{
 .contents-sec .container .grid-container {
     width: 100%;
     display: grid;
-    grid-template-columns: 40% 20% 20% 20%;
+    grid-template-columns: 40% 19% 19% 19%;
     gap: 5px;
     padding: 10px;
-    overflow: scroll;
+    overflow: auto;
+    box-sizing: content-box;
 }
 
 .contents-sec .container .grid-container .grid-item {
