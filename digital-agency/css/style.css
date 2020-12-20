@@ -1198,6 +1198,7 @@ header{
     grid-template-columns: 40% 20% 20% 20%;
     gap: 5px;
     padding: 10px;
+    overflow: scroll;
 }
 
 .contents-sec .container .grid-container .grid-item {
@@ -2639,6 +2640,10 @@ header{
 }
 /*@media (max-width: 575.98px) {*/
 @media (max-width: 767px) {
+
+    .contents-sec .container .grid-container {
+        grid-template-columns: 65% 30% 30% 30%;
+    }
 
     .team-section .card-container {
         flex-direction: column;
