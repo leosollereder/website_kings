@@ -105,7 +105,10 @@
                                     <a class="nav-link wow fadeInDown scroll" href="#testimonial-sec">CLIENTS</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link wow fadeInUp scroll" href="#lastest-blog">BLOG</a>
+                                    <a class="nav-link wow fadeInDown scroll" href="#testimonial-sec">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link wow fadeInUp scroll" href="#lastest-blog">PROJECTS</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link wow fadeInDown scroll" href="#contact-sec">CONTACT</a>
@@ -141,7 +144,10 @@
                         <a class="nav-link scroll" href="#testimonial-sec">Clients</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#lastest-blog">Blogs</a>
+                        <a class="nav-link scroll" href="#testimonial-sec">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#lastest-blog">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link scroll" href="#contact-sec">Contact</a>
@@ -183,7 +189,7 @@
                         <h2>Website<span class="main-bold-text"> KINGS</span></h2>
                         <p>Wir setzen deine Wunsch-Website in Rekordzeit um. Und das ganz ohne Probleme oder jegliche
                             Komplikationen.</p>
-                        <a href="javascript:void(0);" class="btn btn-large btn-rounded white-tran-black-btn">Get
+                        <a href="#skill-sec" class="btn btn-large btn-rounded white-tran-black-btn scroll">Get
                             started</a>
                     </div>
                 </div>
@@ -399,7 +405,7 @@
                                 <p>Für nur</p>
                                 <h3 class="price">4000€</h3>
                             </div>
-                            <button class="button">Jetzt kaufen!</button>
+                            <button class="button"><a class="scroll" href="#contact-sec" onclick="changeSelect('HERO')">Jetzt kaufen!</a></button>
                         </div>
                     </div>
                     <div class="card text-center center">
@@ -410,7 +416,7 @@
                                 <p>Für nur</p>
                                 <h3 class="price">3000€</h3>
                             </div>
-                            <button class="button">Jetzt kaufen!</button>
+                            <button class="button"><a class="scroll" href="#contact-sec" onclick="changeSelect('PRO')">Jetzt kaufen!</a></button>
                         </div>
                     </div>
                     <div class="card text-center end">
@@ -421,7 +427,7 @@
                                 <p>Für nur</p>
                                 <h3 class="price">2000€</h3>
                             </div>
-                            <button class="button">Jetzt kaufen!</button>
+                            <button class="button"><a class="scroll" href="#contact-sec" onclick="changeSelect('STARTER')">Jetzt kaufen!</a></button>
                         </div>
                     </div>
                 </div>
@@ -618,7 +624,7 @@
         </div>
     </div>
 </section>
-<!--faq section end-->
+<!--brands section end-->
 
 <!--Lastest Blog section start-->
 <section class="lastest-blog" id="lastest-blog">
@@ -632,18 +638,26 @@
             <div class="col-12 col-md-12 col-lg-6">
                 <div class="blog-content slider-detail wow fadeInDown">
                     <div class="slider-slide">
-                        <h1>LATEST</h1>
-                        <h1><span>DESIGN</span> BLOG</h1>
-                        <p>Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the
-                            industry.</p>
+                        <h1>SOLLEREDER</h1>
+                        <h1><span>.AT</span></h1>
+                        <p>Eine Portfolio-Website für einen selbstständigen Webdesigner. Authentisch und Idividuell mit
+                            dem Hero-Package.</p>
                         <a href="javascript:void(0);" class="btn btn-large btn-rounded white-tran-yellow-btn">Learn
                             More</a>
                     </div>
                     <div class="slider-slide">
-                        <h1>LATEST</h1>
-                        <h1><span>DESIGN</span> BLOG</h1>
-                        <p>Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the
-                            industry.</p>
+                        <h1>BARBARA</h1>
+                        <h1><span>BERGER</span></h1>
+                        <p>Eine Portfolio-Website für einen selbstständigen Webdesigner. Authentisch und Idividuell mit
+                            dem Hero-Package.</p>
+                        <a href="javascript:void(0);" class="btn btn-large btn-rounded white-tran-black-btn">Learn
+                            More</a>
+                    </div>
+                    <div class="slider-slide">
+                        <h1>HTL</h1>
+                        <h1><span>Rennweg</span></h1>
+                        <p>Eine Portfolio-Website für einen selbstständigen Webdesigner. Authentisch und Idividuell mit
+                            dem Hero-Package.</p>
                         <a href="javascript:void(0);" class="btn btn-large btn-rounded white-tran-black-btn">Learn
                             More</a>
                     </div>
@@ -654,10 +668,13 @@
                     <img src="digital-agency/img/blog-mokeup.png">
                     <div class="slider-img">
                         <div class="img-slide">
-                            <img src="digital-agency/img/blog-mokup-img-2.png" class="mockup-img">
+                            <img src="assets/projects/sollereder.png" class="mockup-img">
                         </div>
                         <div class="img-slide">
-                            <img src="digital-agency/img/blog-mokup-img.png" class="mockup-img">
+                            <img src="assets/projects/sollereder.png" class="mockup-img">
+                        </div>
+                        <div class="img-slide">
+                            <img src="assets/projects/sollereder.png" class="mockup-img">
                         </div>
                     </div>
                 </div>
@@ -681,13 +698,19 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-7">
-                <h4 class="heading text-center text-lg-left">GET IN TOUCH</h4>
+                <h4 class="heading text-center text-lg-left">HOL DIR DEINE WEBSITE</h4>
                 <form class="row contact-form wow fadeInLeft" id="contact-form-data">
                     <div class="col-sm-12" id="result"></div>
                     <div class="col-12 col-md-5">
-                        <input type="text" name="userName" placeholder="Your Name" class="form-control">
+                        <input type="text" name="userName" placeholder="Your Name *" class="form-control">
                         <input type="email" name="userEmail" placeholder="Email Address *" class="form-control">
-                        <input type="text" name="userSubject" placeholder="Subject" class="form-control">
+                        <label>Select Package</label>
+                        <select id="package" name="package" class="form-control">
+                            <option value="HERO">HERO</option>
+                            <option value="PRO" selected>PRO</option>
+                            <option value="STARTER">STARTER</option>
+                        </select>
+                        <!--input type="text" name="userSubject" placeholder="Subject" class="form-control"-->
                     </div>
                     <div class="col-12 col-md-7">
                         <textarea class="form-control" name="userMessage" rows="6"
@@ -702,19 +725,18 @@
             </div>
             <div class="col-12 col-lg-5 text-center text-lg-left position-relative">
                 <div class="contact-details wow fadeInRight">
-                    <h4 class="heading">OUR LOCATION</h4>
+                    <h4 class="heading">DU HAST EINE FRAGE?</h4>
                     <p class="text">
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered .
+                        Für spezielle Anliegen kannst du uns auch in unserem Büro besuchen. Ruf uns dazu einfach an und
+                        mach dir einen Termin aus!
                     </p>
                     <ul>
-                        <li><i aria-hidden="true" class="fas fa-map-marker-alt"></i> 123 Park Avenue, New York, United
-                            States
-                        </li>
+                        <li><i aria-hidden="true" class="fas fa-map-marker-alt"></i>Teststraße 25, 1120 Wien</li>
                         <li><i aria-hidden="true" class="fas fa-phone-volume"></i>
                             <span>+1 631 1234 5678</span>
-                            <span>+1 631 1234 5678</span>
                         </li>
-                        <li><i aria-hidden="true" class="fas fa-paper-plane"></i>email@website.com</li>
+                        <li><i aria-hidden="true" class="fas fa-envelope"></i><a href="mailto:email@website.com">email@website.com</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -727,37 +749,30 @@
 <footer class="footer-style-1">
 
     <div class="container">
-        <div class="row align-items-center">
+        <div-- class="row align-items-center">
             <!--Social-->
-            <div class="col-lg-6">
+            <div class="col-lg-6 text-center text-lg-left" style="padding-bottom: 2vh;">
+                <p class="company-about fadeIn">Hier findest du unser <a class="foot-links"  href="">Impressum</a></p>
+                <p class="company-about fadeIn">Hier findest du Informationen zu unserer <a class="foot-links" href="">DSGVO</a></p>
+            </div>
+            <!--div class="col-lg-6 row">
+                <a href="">Impressum</a>
+                <a href="">DSGVO</a>
                 <div class="footer-social text-center text-lg-left ">
                     <ul class="list-unstyled">
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true"
-                                                                                  class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true"
-                                                                                    class="fab fa-twitter"></i></a></li>
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true"
-                                                                                  class="fab fa-google-plus-g"></i></a>
-                        </li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true"
-                                                                                    class="fab fa-linkedin-in"></i></a>
-                        </li>
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true"
-                                                                                  class="fab fa-instagram"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true"
-                                                                                    class="fab fa-pinterest-p"></i></a>
-                        </li>
+                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-facebook-f"></i></a></li>
+                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-twitter"></i></a></li>
+                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-google-plus-g"></i></a></li>
+                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-linkedin-in"></i></a></li>
+                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-instagram"></i></a></li>
+                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-pinterest-p"></i></a></li>
                     </ul>
                 </div>
-            </div>
+            </div-->
             <!--Text-->
             <div class="col-lg-6 text-center text-lg-right">
-                <p class="company-about fadeIn">© 2020 MegaOne. Made With Love By <a href="javascript:void(0);">Themesindustry</a>
-                <p class="company-about fadeIn">Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect"
-                                                                 title="Pixel perfect">Pixel perfect</a> from <a
-                        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-                </p>
+                <p class="company-about fadeIn">Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+                <p class="company-about fadeIn">© 2020 MegaOne. Made With Love By <a href="javascript:void(0);">Themesindustry</a></p>
             </div>
         </div>
     </div>
@@ -797,6 +812,7 @@
 <script src="digital-agency/js/script.js"></script>
 
 <script src="digital-agency/js/aos.js"></script>
+<script src="digital-agency/js/javascript.js"></script>
 
 
 </html>

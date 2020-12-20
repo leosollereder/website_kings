@@ -239,6 +239,16 @@ if($_POST)
             $user_Message = filter_var($_POST["userMessage"], FILTER_SANITIZE_STRING);
         }
     }
+    if(isset($_POST["package"])) {
+        if(!isset($_POST["package"]))
+        {
+            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            die($output);
+        }
+        else {
+            $package = $_POST["package"];
+        }
+    }
 
 
     //additional php validation
@@ -283,12 +293,15 @@ if($_POST)
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'New Contact Inquiry from your Website';
+    $mail->Subject = 'Neuer Auftrag von Website-Kings';
     $mail->Body  = "<h4 style='text-align: center;padding: 25px 15px;background-color: #0c6c9e;color: #FFFFFF;font-size:16px;width:90%;border-radius: 10px;'>Hi There! You have a new inquiry from your website.</h4><br><br>";
 
     if(isset($_POST["userEmail"])) {
         $mail->Body .= "<strong>Email: </strong>" . $user_Email . "<br>";
     }
+    if(isset($_POST["package"])) {
+            $mail->Body .= "<strong>Package: </strong>" . $package . "<br>";
+        }
     //education
     if(isset($_POST["fatherName"])) {
         $mail->Body .= "<strong>Father Name: </strong>" . $father_Name . "<br>";
