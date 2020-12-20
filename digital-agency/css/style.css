@@ -59,7 +59,7 @@ body {font-family: 'Roboto', sans-serif; font-size: 16px;color: #2b2b2b;font-wei
 .h1, h1 {
     font-size: 3rem;
 }
-a, *::before, *::after, img, span, input, button, .navbar, .fixedmenu, .tp-bullet, .owl-dot, .owl-prev, .owl-next {transition: ease-in-out 0.2s;-webkit-transition: ease-in-out 0.2s;-moz-transition: ease-in-out 0.2s;-ms-transition: ease-in-out 0.2s;-o-transition: ease-in-out 0.2s;}
+/*a, *::before, *::after, img, span, input, button, .navbar, .fixedmenu, .tp-bullet, .owl-dot, .owl-prev, .owl-next {transition: ease-in-out 0.2s;-webkit-transition: ease-in-out 0.2s;-moz-transition: ease-in-out 0.2s;-ms-transition: ease-in-out 0.2s;-o-transition: ease-in-out 0.2s;}*/
 section,.section-padding {position: relative;overflow: hidden;}
 .section-top-margin{margin-top: 7.5rem;}
 a {color:inherit;text-decoration: none;}
@@ -1049,8 +1049,8 @@ header{
    Team SECTION
 ====================================== */
 .team-section{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 180px;
+    padding-bottom: 180px;
     background-color:#202020;
 }
 
@@ -1081,6 +1081,13 @@ header{
     margin-bottom: 20px;
 }
 
+.team-section .card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .team-section .card {
     height: 450px;
     border-radius: 20px;
@@ -1088,6 +1095,8 @@ header{
     border: none;
     z-index: 1000;
     width: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .team-section .card:hover{
@@ -1106,48 +1115,12 @@ header{
     border-top-right-radius: inherit;
 }
 
-.team-section .card-container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    height: 600px;
-    justify-content: space-between;
-}
-
-.team-section .card.start {
-    align-self: flex-start;
-}
-
-.team-section .card.center {
-    align-self: center;
-}
-
-.team-section .card.end {
-    align-self: flex-end;
-}
-
 .team-section .title{
     color: #ffffff;
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
     font-weight: 500;
     margin-bottom: 30px;
-}
-
-.team-section .image-holder img{
-    height: 250px;
-    width: 250px;
-    background-color: #39c5de;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-
-.team-section .team-name{
-    margin-top: 20px;
-    color: #ffffff;
-    transition: .5s ease all;
 }
 
 .team-section p {
@@ -1214,7 +1187,6 @@ header{
 
 .contents-sec .heading{
     color: #202020;
-    margin-bottom: 0;
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 30px;
@@ -1234,9 +1206,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #39c5de;
+    background-color: #eeeeee;
     border-radius: 5px;
-    color: white;
 }
 
 .contents-sec .container .grid-container .grid-left {
@@ -1246,6 +1217,8 @@ header{
 .contents-sec .container .grid-container .grid-header {
     font-weight: bold;
     font-size: 1.1em;
+    background-color: #39c5de;
+    color: white;
 }
 
 
@@ -1479,36 +1452,119 @@ header{
     margin-top: 60px;
 }
 
+/* FAQ Section */
 
-/* ===================================
-   Partners Slider
-====================================== */
-
-.partners-slider .logo-item img {
-    max-width: 170px;
-    opacity: .5;
-    display: inline-block;
+.faq-sec .faq-title .heading {
+    color: #202020;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
-.brand-sec .partners-slider .owl-item:nth-child(2) .logo-item{
-    margin-top: 30px;
+.faq-sec .accordion {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.brand-sec .partners-slider .owl-item:nth-child(3) .logo-item{
-    margin-top: 50px;
+.faq-sec .item {
+    border-radius: 20px;
+    background-color: #eeeeee;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
-.brand-sec .partners-slider .owl-item:nth-child(4) .logo-item{
-    margin-top: 70px;
+.faq-sec .question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 100%;
+    transition: all 0.2s ease;
+    font-weight: bold;
 }
 
+.faq-sec .item:hover .question {
+    color: #1ab7ea;
+}
 
+.faq-sec .answer {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
 
+.faq-sec .item.open .answer {
+    margin-top: 10px;
+    max-height: 100px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+}
 
+.faq-sec .plus {
+    position: relative;
+    width: 21px;
+    height: 21px;
+}
 
-/* ===================================
-   Partners Slider
-====================================== */
+.faq-sec .plus::after {
+    margin-top: -2px;
+    margin-left: -10px;
+
+    transition: all 0.2s ease;
+
+    position: absolute;
+    content: '';
+    background-color: black;
+    width: 21px;
+    height: 5px;
+    display: block;
+    opacity: 1;
+    top: 10px;
+    left: 10px;
+    border-radius: 2px;
+}
+
+.faq-sec .plus::before {
+    margin-top: -2px;
+    margin-left: -10px;
+
+    transition: all 0.2s ease;
+
+    position: absolute;
+    content: '';
+    background-color: black;
+    width: 21px;
+    height: 5px;
+    display: block;
+    opacity: 1;
+    top: 10px;
+    left: 10px;
+    transform: rotate(90deg);
+    border-radius: 2px;
+}
+
+.faq-sec .item:hover .plus::after {
+    background-color: #1ab7ea;
+}
+
+.faq-sec .item:hover .plus::before {
+    background-color: #1ab7ea;
+}
+
+.faq-sec .item.open .plus::before {
+    transform: rotate(0);
+}
+
+/* FAQ Section End */
 
 .lastest-blog {
     padding-top: 200px;
@@ -2221,8 +2277,18 @@ header{
 
 }
 
-
+/*Breakpoint*/
 @media screen and (max-width:991px){
+
+    .team-section .card-container {
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .team-section .card {
+        width: 46%;
+    }
 
     body{
         text-align: center;
@@ -2552,6 +2618,16 @@ header{
 }
 /*@media (max-width: 575.98px) {*/
 @media (max-width: 767px) {
+
+    .team-section .card-container {
+        flex-direction: column;
+    }
+
+    .team-section .card {
+        width: 80%;
+    }
+
+
     /*toggle btn*/
     .sidemenu_btn {
         position: absolute;
@@ -2689,18 +2765,6 @@ header{
         height: 100px;
     }
     /*sponsers section css*/
-
-    .brand-sec .partners-slider .owl-item:nth-child(2) .logo-item{
-        margin-top: 0px;
-    }
-
-    .brand-sec .partners-slider .owl-item:nth-child(3) .logo-item{
-        margin-top: 0px;
-    }
-
-    .brand-sec .partners-slider .owl-item:nth-child(4) .logo-item{
-        margin-top: 0px;
-    }
 
     /*Blog section Css*/
     #blog-header-svg {
@@ -2915,24 +2979,6 @@ header{
     .skill-sec .skill-details .title {
         font-size: 50px;
     }
-    /* Team */
-    .team-section .team-details .title {
-        font-size: 50px;
-    }
-    #team-header-svg {
-        height: 100px;
-    }
-
-    #team-foot-svg{
-        height: 100px;
-    }
-    #team-circle-left {
-        left: -3%;
-    }
-
-    #team-circle-right {
-        right: -3%;
-    }
 
     /*portfolio-sec*/
     .portfolio-sec .heading {
@@ -2986,10 +3032,6 @@ header{
     /* About Section */
     .services-area-width-manage{
         width: 100%;
-    }
-    /* Team Section */
-    #team-circle-left {
-        top: 40%;
     }
 
 }
