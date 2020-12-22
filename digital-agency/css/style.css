@@ -781,6 +781,21 @@ header{
     background-color:#39c5de;
 }
 
+#perks {
+    position: absolute;
+    top: 60%;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+#perks2 {
+    position: absolute;
+    top: 60%;
+    font-size: 20px;
+    font-weight: 200;
+}
+
 .banner-text-right{
     padding:50px 20px;
     padding-bottom: 70px;
@@ -1012,9 +1027,10 @@ header{
 */
 
 .step-wrapper {
-    width: 100%;
+    width: 90%;
     display: flex;
-    margin-bottom: 10vh;
+    margin: auto;
+    margin-bottom: 18vh;
 }
 
 .step-wrapper:nth-child(even) {
@@ -1022,8 +1038,32 @@ header{
 }
 
 .step {
-    width: 40%;
+    width: 80%;
+    display: flex;
     z-index: 5;
+}
+
+.step div{
+    width: 80%;
+}
+
+.translatey50 {
+    width: 40%!important;
+    transform: translateY(13%);
+    font-size: 120px;
+    color:  hsla(189, 75%, 55%, 0.6);
+    text-align: right;
+}
+
+.translatey502 {
+    width: 40%!important;
+    transform: translateY(13%);
+    font-size: 120px;
+    color:  hsla(189, 75%, 55%, 0.6);
+}
+
+.step h4 {
+    font-size: 40px;
 }
 
 .colored-number {
@@ -1039,8 +1079,9 @@ header{
     position: absolute;
     z-index: 1;
     transform: translate(0px, -260px);
-
 }
+
+
 
 
 
@@ -1086,6 +1127,11 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.card-container {
+    margin-top: 5vh!important;
+    margin-bottom: 5vh!important;
 }
 
 .team-section .card {
@@ -2357,6 +2403,18 @@ header{
         margin-bottom: 5vh;
     }
 
+    .translatey50 {
+        display: none;
+    }
+
+    .translatey502 {
+        display: none;
+    }
+
+
+    .step div{
+        width: 100%;
+    }
 
     .team-item{
         margin-top: 4rem;
