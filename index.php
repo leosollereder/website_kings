@@ -1,3 +1,11 @@
+<?php
+//Start the session
+session_start();
+
+$error = "";
+//Access your POST variables
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -187,11 +195,14 @@
                     <div class="overlay-yellow-box"></div>
                     <div class="banner-right-area-content">
                         <h2>Website<span class="main-bold-text"> KINGS</span></h2>
-                        <p style="opacity: 0">Wir setzen deine Wunsch-Website in Rekordzeit um. Und das ganz ohne Probleme oder jegliche
+                        <p style="opacity: 0">Wir setzen deine Wunsch-Website in Rekordzeit um. Und das ganz ohne
+                            Probleme oder jegliche
                             Komplikationen.</p>
-                        <p id="perks">Wir setzen deine Wunsch-Website in Rekordzeit um. Und das ganz ohne Probleme oder jegliche
+                        <p id="perks">Wir setzen deine Wunsch-Website in Rekordzeit um. Und das ganz ohne Probleme oder
+                            jegliche
                             Komplikationen.</p>
-                        <p id="perks2">Wir setzen deine Wunsch-Website in Rekordzeit um. Und das ganz ohne Probleme oder jegliche
+                        <p id="perks2">Wir setzen deine Wunsch-Website in Rekordzeit um. Und das ganz ohne Probleme oder
+                            jegliche
                             Komplikationen.</p>
                         <a href="#skill-sec" class="btn btn-large btn-rounded white-tran-black-btn scroll">Get
                             started</a>
@@ -219,11 +230,12 @@
             <div class="mission-content">
                 <p>
                     <i>
-                    "Webseite Kings – wir bauen Websites die funktionieren.<br>
-                    Ohne Aufwand für Sie, zum fixen Preis, in klaren Paketen.<br>
-                    Google optimiert, einfach zu warten und einfach großartig."
+                        "Webseite Kings – wir bauen Websites die funktionieren.<br>
+                        Ohne Aufwand für Sie, zum fixen Preis, in klaren Paketen.<br>
+                        Google optimiert, einfach zu warten und einfach großartig."
                     </i>
                 </p>
+                <i class="fas fa-quote-right"></i>
             </div>
         </div>
     </div>
@@ -312,34 +324,6 @@
                 </div>
             </div>
             <div class="col-12">
-                <!--div class="skill-bars">
-                    <ul class="text-left list-unstyled">
-                        <li class="progress-item wow fadeInLeft">
-                            <h6>Designing</h6>
-                            <div class="progress bar" data-width="79%">
-                                <div class="progress-bar rounded-left bg-warning bar-inner" role="progressbar"> <span>79%<i class="fas fa-caret-down"></i></span></div>
-                            </div>
-                        </li>
-                        <li class="progress-item wow fadeInRight" data-wow-delay=".5s">
-                            <h6>Elevation</h6>
-                            <div class="progress bar" data-width="95%">
-                                <div class="progress-bar rounded-left bg-warning bar-inner" role="progressbar"><span>95%<i class="fas fa-caret-down"></i></span></div>
-                            </div>
-                        </li>
-                        <li class="progress-item wow fadeInLeft" data-wow-delay=".6s">
-                            <h6>Sketching</h6>
-                            <div class="progress bar" data-width="87%">
-                                <div class="progress-bar rounded-left bg-warning bar-inner" role="progressbar"><span>87%<i class="fas fa-caret-down"></i></span></div>
-                            </div>
-                        </li>
-                        <li class="progress-item wow fadeInRight" data-wow-delay=".7s">
-                            <h6>Strategy</h6>
-                            <div class="progress bar" data-width="57%">
-                                <div class="progress-bar rounded-left bg-warning bar-inner" role="progressbar"><span>57%<i class="fas fa-caret-down"></i></span></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div-->
                 <div data-aos="fade-up-right" class="step-wrapper">
                     <div class="step">
                         <div>
@@ -398,6 +382,28 @@
                         </div>
                     </div>
                 </div>
+
+                <div data-aos="zoom-in" class="beratung" id="beratung">
+                    <h3>Hol dir dein kostenloses Beratungsgespräch!</h3>
+
+                <?php
+                    if(isset($_SESSION['POST'])) {
+                         $error = $_SESSION['POST'];
+                         if($error["error"]) {
+                            echo '<div class="beratung-success"><i class="fas fa-check-circle"></i><p>Danke für deine Nachricht!</p></div>';
+                         } else {
+                            echo '<div class="beratung-error"><i class="fas fa-exclamation-circle"></i><p>Da hat wohl etwas nicht funktioniert! Kontaktiere uns bitte über die unten Angeführten Möglichkeiten!</p></div>';
+                         }
+                    } else {
+                        echo '<form action="vendor/contact-mailer-beratung.php" method="post">
+                            <input name="beratungmail" type="email" placeholder="Deine E-Mail" required>
+                            <button type="submit">Senden</button>
+                        </form>';
+                    }
+                ?>
+
+                </div>
+
 
             </div>
         </div>
@@ -661,28 +667,29 @@
             <div class="col-12 col-md-12 col-lg-6">
                 <div class="blog-content slider-detail wow fadeInDown">
                     <div class="slider-slide">
+                        <h1>Project</h1>
+                        <h1><span>ATLAS</span></h1>
+                        <p>Eine individuelle Website, gebucht über das HERO-Paket. Ganz nach dem Wunsch des Kunden.</p>
+                        <a href="https://project-atlas.at/#0" target="_blank" class="btn btn-large btn-rounded white-tran-yellow-btn">Zur Website</a>
+                    </div>
+                    <div class="slider-slide">
                         <h1>SOLLEREDER</h1>
                         <h1><span>.AT</span></h1>
                         <p>Eine Portfolio-Website für einen selbstständigen Webdesigner. Authentisch und Idividuell mit
-                            dem Hero-Package.</p>
-                        <a href="javascript:void(0);" class="btn btn-large btn-rounded white-tran-yellow-btn">Learn
-                            More</a>
+                            dem Pro-Package.</p>
+                        <a href="https://sollereder.at/" target="_blank" class="btn btn-large btn-rounded white-tran-black-btn">Zur Website</a>
                     </div>
                     <div class="slider-slide">
-                        <h1>BARBARA</h1>
-                        <h1><span>BERGER</span></h1>
-                        <p>Eine Portfolio-Website für einen selbstständigen Webdesigner. Authentisch und Idividuell mit
-                            dem Hero-Package.</p>
-                        <a href="javascript:void(0);" class="btn btn-large btn-rounded white-tran-black-btn">Learn
-                            More</a>
+                        <h1>Die Yoga</h1>
+                        <h1><span>Lehrerin</span></h1>
+                        <p>Eine Portfolio-Website für eine selbstständige Yogalehrerin. Ganz einfach und problemlos.</p>
+                        <a href="https://dieyogalehrerin.at/" target="_blank" class="btn btn-large btn-rounded white-tran-black-btn">Zur Website</a>
                     </div>
                     <div class="slider-slide">
-                        <h1>HTL</h1>
-                        <h1><span>Rennweg</span></h1>
-                        <p>Eine Portfolio-Website für einen selbstständigen Webdesigner. Authentisch und Idividuell mit
-                            dem Hero-Package.</p>
-                        <a href="javascript:void(0);" class="btn btn-large btn-rounded white-tran-black-btn">Learn
-                            More</a>
+                        <h1>Armin</h1>
+                        <h1><span>Rogl</span></h1>
+                        <p>Eine weitere persönliche Portfolio Website, gebucht im Starter-Paket.</p>
+                        <a href="https://www.arminrogl.com/" target="_blank" class="btn btn-large btn-rounded white-tran-black-btn">Zur Website</a>
                     </div>
                 </div>
             </div>
@@ -691,20 +698,23 @@
                     <img src="digital-agency/img/blog-mokeup.png">
                     <div class="slider-img">
                         <div class="img-slide">
-                            <img src="assets/projects/sollereder.png" class="mockup-img">
+                            <img src="assets/projects/atlas.JPG" class="mockup-img">
                         </div>
                         <div class="img-slide">
                             <img src="assets/projects/sollereder.png" class="mockup-img">
                         </div>
                         <div class="img-slide">
-                            <img src="assets/projects/sollereder.png" class="mockup-img">
+                            <img src="assets/projects/yoga.JPG" class="mockup-img">
+                        </div>
+                        <div class="img-slide">
+                            <img src="assets/projects/armin.JPG" class="mockup-img">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <a class='circle' id="blog-circle-left"><i class="lni lni-chevron-left"></i></a>
-        <a class='circle' id="blog-circle-right"><i class="lni lni-chevron-right"></i></a>
+        <a class='circle' id="blog-circle-left"><i class="lni lni-chevron-right"></i></a>
+        <a class='circle' id="blog-circle-right"><i class="lni lni-chevron-left"></i></a>
     </div>
 
     <svg class="separator__svg" id="blog-foot-svg" width="100%" height="200" viewBox="0 0 100 100"
@@ -725,9 +735,9 @@
                 <form class="row contact-form wow fadeInLeft" id="contact-form-data">
                     <div class="col-sm-12" id="result"></div>
                     <div class="col-12 col-md-5">
-                        <input type="text" name="userName" placeholder="Your Name *" class="form-control">
-                        <input type="email" name="userEmail" placeholder="Email Address *" class="form-control">
-                        <label>Select Package</label>
+                        <input type="text" name="userName" placeholder="Dein Name *" class="form-control">
+                        <input type="email" name="userEmail" placeholder="Email-Addresse *" class="form-control">
+                        <label>Paketauswahl</label>
                         <select id="package" name="package" class="form-control">
                             <option value="HERO">HERO</option>
                             <option value="PRO" selected>PRO</option>
@@ -737,10 +747,11 @@
                     </div>
                     <div class="col-12 col-md-7">
                         <textarea class="form-control" name="userMessage" rows="6"
-                                  placeholder="Your Message"></textarea>
+                                  placeholder="Deine Nachricht"></textarea>
                     </div>
                     <div id="checkbox-wrapper">
-                        <p>Mit dem Senden der Nachricht akzeptieren sie die <a href="#"><b>Datenschutzbedingungen</b></a></p>
+                        <p>Mit dem Senden der Nachricht akzeptierst du die <a
+                                href="#"><b>Datenschutzbedingungen</b></a></p>
                         <!--input id="checkbox" type="checkbox" name="checkbox" checked required>
                         <label for="checkbox">Ich habe die Datenschutzbedingungen akzeptiert</label-->
                     </div>

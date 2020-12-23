@@ -287,14 +287,14 @@ if($_POST)
 
     //Recipients
     $mail->setFrom($user_Email,$user_Name);
-    $mail->addAddress($your_email, 'Theme Industry');     // Add a recipient
+    $mail->addAddress($your_email, 'Website Kings');     // Add a recipient
     $mail->addReplyTo($your_email, 'Information');
 
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Neuer Auftrag von Website-Kings';
-    $mail->Body  = "<h4 style='text-align: center;padding: 25px 15px;background-color: #0c6c9e;color: #FFFFFF;font-size:16px;width:90%;border-radius: 10px;'>Hi There! You have a new inquiry from your website.</h4><br><br>";
+    $mail->Body  = "<h4 style='text-align: center;padding: 25px 15px;background-color: #0c6c9e;color: #FFFFFF;font-size:16px;width:90%;border-radius: 10px;'>Neuer Auftrag für eine Website!</h4><br><br>";
 
     if(isset($_POST["userEmail"])) {
         $mail->Body .= "<strong>Email: </strong>" . $user_Email . "<br>";
