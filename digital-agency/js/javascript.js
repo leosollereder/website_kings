@@ -1,21 +1,3 @@
-window.cookieconsent.initialise({
-    "palette": {
-        "popup": { "background": "#000", "text": "#FFF"},
-        "button": { "background": "rgb(57, 197, 222)"}},
-    "theme": "edgeless",
-    "position": "bottom-right",
-    "content": {
-        "message": "Diese Webseite verwendet Cookies, um dir ein angenehmeres Surfen zu ermöglichen.",
-        "dismiss": "Got it!",
-        "link": "Learn more",
-        "href": "https://www.cookiesandyou.com/"
-    }
-});
-
-
-
-
-
 function changeSelect(chosen_package) {
    $('#package').val(chosen_package);
 }
