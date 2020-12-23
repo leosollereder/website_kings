@@ -373,7 +373,7 @@ $error = "";
                         <div class="translatey502">
                             <i class="fas fa-laugh-beam"></i>
                         </div>
-                        <div>
+                        <div id="beratung">
                             <h4>Go live!</h4>
                             <p>Deine neue Webseite wird auf den Server übersiedelt und ist ab sofort unter Deiner
                                 Wunschdomain abrufbar, ebenso wie Deine Mails – und Du bekommst eine
@@ -383,7 +383,7 @@ $error = "";
                     </div>
                 </div>
 
-                <div data-aos="zoom-in" class="beratung" id="beratung">
+                <div data-aos="zoom-in" class="beratung">
                     <h3>Hol dir dein kostenloses Beratungsgespräch!</h3>
 
                 <?php
