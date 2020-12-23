@@ -47,6 +47,8 @@ $error = "";
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="90">
@@ -847,6 +849,10 @@ $error = "";
 <script src="vendor/js/jquery.cubeportfolio.min.js"></script>
 <script src="vendor/js/wow.min.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- Kekse -->
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+
 
 <!-- custom script-->
 <script src="digital-agency/js/slick.min.js"></script>
