@@ -1,5 +1,7 @@
 <?php
 //Start the session
+    //Start the session
+
 session_start();
 
 $error = "";
@@ -387,9 +389,9 @@ $error = "";
                     <h3>Hol dir dein kostenloses Beratungsgespräch!</h3>
 
                 <?php
-                    if(isset($_SESSION['POST'])) {
-                         $error = $_SESSION['POST'];
-                         if($error["error"]) {
+                    if(isset($_SESSION['error'])) {
+                         $error = $_SESSION['error'];
+                         if(!$error) {
                             echo '<div class="beratung-success"><i class="fas fa-check-circle"></i><p>Danke für deine Nachricht!</p></div>';
                          } else {
                             echo '<div class="beratung-error"><i class="fas fa-exclamation-circle"></i><p>Da hat wohl etwas nicht funktioniert! Kontaktiere uns bitte über die unten Angeführten Möglichkeiten!</p></div>';
@@ -856,3 +858,7 @@ $error = "";
 
 
 </html>
+
+<?php
+    session_unset();
+    ?>

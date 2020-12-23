@@ -27,16 +27,17 @@ if($_POST)
                 'text' => 'Request must come from Ajax'
             ));
 
-        $_SESSION['POST'] = ["error" => true];
+        $_SESSION['error'] = true;
         header("Location: ../index.php#beratung");
     }
 
 
     if(isset($_POST["beratungmail"])) {
        $beratungmail = $_POST["beratungmail"];
+
     } else {
 
-        $_SESSION['POST'] = ["error" => true];
+        $_SESSION['error'] = true;
         header("Location: ../index.php#beratung");
 
     }
@@ -53,7 +54,7 @@ if($_POST)
 //    $mail->Port       = 587;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom($user_Email,$user_Name);
+    $mail->setFrom($beratungmail,"Beratung");
     $mail->addAddress($your_email, 'Website Kings');     // Add a recipient
     $mail->addReplyTo($your_email, 'Information');
 
@@ -70,13 +71,19 @@ if($_POST)
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 
-    if(!$mail->send())
+    if (!$mail->send())
     {
-        $_SESSION['POST'] = ["error" => true];
+       /* PHPMailer error. */
+
+        $_SESSION['error'] = true;
+        $_SESSION['id'] = $mail->ErrorInfo;
         header("Location: ../index.php#beratung");
-    }else{
-        $_SESSION['POST'] = ["error" => false];
+    } else {
+        $_SESSION['error'] = false;
         header("Location: ../index.php#beratung");
     }
+
+
+
 }
 ?>
