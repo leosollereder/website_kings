@@ -1243,7 +1243,7 @@ header{
     transition: transform 0.2s ease;
     border: none;
     z-index: 1000;
-    width: 25%;
+    width: 23%;
 }
 
 .team-section .card:hover{
@@ -1341,7 +1341,7 @@ header{
 
 .contents-sec .container .grid-container {
     display: grid;
-    grid-template-columns: 38% 20% 20% 20%;
+    grid-template-columns: 38% 15% 15% 15% 15%;
     gap: 5px;
     overflow: auto;
     box-sizing: content-box;
@@ -1359,6 +1359,7 @@ header{
 
 .contents-sec .container .grid-container .grid-left {
     justify-content: flex-start;
+    text-align: left;
 }
 
 .contents-sec .container .grid-container .grid-header {
@@ -2808,7 +2809,7 @@ header{
 @media (max-width: 767px) {
 
     .contents-sec .container .grid-container {
-        grid-template-columns: 65% 30% 30% 30%;
+        grid-template-columns: 60% 30% 30% 30% 40%;
     }
 
     .team-section .card-container {

@@ -432,16 +432,16 @@ $error = "";
             </div>
             <div class="col-12 col-lg-12">
                 <div class="card-container" data-aos="fade-up">
-                    <div class="card text-center start">
-                        <h2 class="card-header">Hero</h2>
+                    <div class="card text-center end">
+                        <h2 class="card-header">Starter</h2>
                         <div class="card-content">
-                            <p class="description">Ihr Unternehmen gehört zu den ganz Großen.</p>
+                            <p class="description">Ideal für alle, die ihren Fuß in die Tür bekommen möchten.</p>
                             <div class="price-container">
                                 <p>Für nur</p>
-                                <h3 class="price">4000€</h3>
+                                <h3 class="price">1.990,-</h3>
                             </div>
-                            <button class="button"><a class="scroll" href="#contact-sec" onclick="changeSelect('HERO')">Jetzt
-                                kaufen!</a></button>
+                            <button class="button"><a class="scroll" href="#contact-sec"
+                                                      onclick="changeSelect('STARTER')">Jetzt kaufen!</a></button>
                         </div>
                     </div>
                     <div class="card text-center center">
@@ -450,22 +450,34 @@ $error = "";
                             <p class="description">Sie haben es bereits geschafft, jetzt ist Zeit für ein Upgrade.</p>
                             <div class="price-container">
                                 <p>Für nur</p>
-                                <h3 class="price">3000€</h3>
+                                <h3 class="price">2.990,-</h3>
                             </div>
                             <button class="button"><a class="scroll" href="#contact-sec" onclick="changeSelect('PRO')">Jetzt
                                 kaufen!</a></button>
                         </div>
                     </div>
-                    <div class="card text-center end">
-                        <h2 class="card-header">Starter</h2>
+                    <div class="card text-center start">
+                        <h2 class="card-header">Hero</h2>
                         <div class="card-content">
-                            <p class="description">Ideal für alle, die ihren Fuß in die Tür bekommen möchten.</p>
+                            <p class="description">Ihr Unternehmen gehört zu den ganz Großen.</p>
                             <div class="price-container">
                                 <p>Für nur</p>
-                                <h3 class="price">2000€</h3>
+                                <h3 class="price">3.990,-</h3>
                             </div>
-                            <button class="button"><a class="scroll" href="#contact-sec"
-                                                      onclick="changeSelect('STARTER')">Jetzt kaufen!</a></button>
+                            <button class="button"><a class="scroll" href="#contact-sec" onclick="changeSelect('HERO')">Jetzt
+                                    kaufen!</a></button>
+                        </div>
+                    </div>
+                    <div class="card text-center start">
+                        <h2 class="card-header">Enterprise</h2>
+                        <div class="card-content">
+                            <p class="description">Für alle, die noch mehr wollen.</p>
+                            <div class="price-container">
+                                <p>Preis</p>
+                                <h3 class="price">Auf Anfrage</h3>
+                            </div>
+                            <button class="button"><a class="scroll" href="#contact-sec" onclick="changeSelect('HERO')">Jetzt
+                                    kaufen!</a></button>
                         </div>
                     </div>
                 </div>
@@ -493,26 +505,103 @@ $error = "";
                 <div class="grid-item grid-header">STARTER</div>
                 <div class="grid-item grid-header">PRO</div>
                 <div class="grid-item grid-header">HERO</div>
-                <!--Überarbeitungen-->
-                <div class="grid-item grid-left">Überarbeitungen</div>
-                <div class="grid-item">1</i></div>
-                <div class="grid-item">5</i></div>
-                <div class="grid-item">Unendlich</i></div>
-                <!--SEO-->
-                <div class="grid-item grid-left">Google Optimierung</div>
+                <div class="grid-item grid-header">ENTERPRISE</div>
+                <!--Professionelle Firmenwebsite-->
+                <div class="grid-item grid-left">Professionelle Firmenwebsite</div>
                 <div class="grid-item"><i class="fas fa-check"></i></div>
                 <div class="grid-item"><i class="fas fa-check"></i></div>
                 <div class="grid-item"><i class="fas fa-check"></i></div>
-                <!--Animationen-->
-                <div class="grid-item grid-left">Animationen</div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <!--Website Hosting-->
+                <div class="grid-item grid-left">Website Hosting</div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <!--Domain inkl.-->
+                <div class="grid-item grid-left">Domain inkl.</div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <!--Server einrichten-->
+                <div class="grid-item grid-left">Server einrichten</div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <!--Eigene Mailadresse-->
+                <div class="grid-item grid-left">Eigene Mailadresse</div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <div class="grid-item"><i class="fas fa-check"></i></div>
+                <!--Anzahl Subseiten-->
+                <div class="grid-item grid-left">Anzahl Subseiten</div>
+                <div class="grid-item">3</div>
+                <div class="grid-item">5</div>
+                <div class="grid-item">5</div>
+                <div class="grid-item">5</div>
+                <!--Fotoshooting-->
+                <div class="grid-item grid-left">Fotoshooting</div>
+                <div class="grid-item"></div>
                 <div class="grid-item"></div>
                 <div class="grid-item"><i class="fas fa-check"></i></div>
                 <div class="grid-item"><i class="fas fa-check"></i></div>
-                <!--Preis-->
+                <!--Video-->
+                <div class="grid-item grid-left">Video</div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">Auf Anfrage</div>
+                <!--Webshop-->
+                <div class="grid-item grid-left">Webshop</div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">Auf Anfrage</div>
+                <!--Werbung auf Google, Facebook-->
+                <div class="grid-item grid-left">Werbung auf Google, Facebook</div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">Auf Anfrage</div>
+                <!--Workshops-->
+                <div class="grid-item grid-left">Workshops</div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">Auf Anfrage</div>
+                <!--Gewinnspiele-->
+                <div class="grid-item grid-left">Gewinnspiele</div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">Auf Anfrage</div>
+                <!--Gamification-->
+                <div class="grid-item grid-left">Gamification</div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">Auf Anfrage</div>
+                <!--Landingpages-->
+                <div class="grid-item grid-left">Landingpages</div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">Auf Anfrage</div>
+                <!--Blogartikel-->
+                <div class="grid-item grid-left">Blogartikel</div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">Auf Anfrage</div>
+                <!--Webshop-->
                 <div class="grid-item grid-left">Preis</div>
-                <div class="grid-item">2000€</div>
-                <div class="grid-item">3000€</div>
-                <div class="grid-item">4000€</div>
+                <div class="grid-item">1.990,-</div>
+                <div class="grid-item">2.990,-</div>
+                <div class="grid-item">3.990,-</div>
+                <div class="grid-item">Auf Anfrage</div>
             </div>
         </div>
     </div>
