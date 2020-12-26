@@ -202,12 +202,7 @@ $error = "";
                         <p style="opacity: 0">Wir setzen deine Wunsch-Website in Rekordzeit um. Und das ganz ohne
                             Probleme oder jegliche
                             Komplikationen.</p>
-                        <p id="perks">Wir setzen deine Wunsch-Website in Rekordzeit um. Und das ganz ohne Probleme oder
-                            jegliche
-                            Komplikationen.</p>
-                        <p id="perks2">Wir setzen deine Wunsch-Website in Rekordzeit um. Und das ganz ohne Probleme oder
-                            jegliche
-                            Komplikationen.</p>
+                        <p id="perks"></p>
                         <a href="#skill-sec" class="btn btn-large btn-rounded white-tran-black-btn scroll">Get
                             started</a>
                     </div>
