@@ -5,7 +5,6 @@ function changeSelect(chosen_package) {
 let counter = 0;
 
 let perks = [
-    "Wir setzen deine Wunsch-Website in Rekordzeit um. Und das ganz ohne Probleme oder jegliche Komplikationen.",
     "Professionelle Websites – ohne Kopfschmerzen – full service!",
     "In einfachen Paketen – für Ihr Business",
     "Webseiten die einfach funktionieren ohne Aufwand",
@@ -20,7 +19,7 @@ function changePerks() {
         perksElement.fadeIn();
     });
 
-    if (counter === 4) {
+    if (counter === perks.length-1) {
         counter = 0;
     } else {
         counter++;

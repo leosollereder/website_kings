@@ -40,21 +40,6 @@ jQuery(function ($) {
     });
 
     /* =====================================
-      Changing Text
-   ====================================== */
-
-    let perks = [
-        "Wir setzen deine Wunsch-Website in Rekordzeit um. Und das ganz ohne Probleme oder jegliche Komplikationen.",
-        "Professionelle Websites – ohne Kopfschmerzen – full service!",
-        "In einfachen Paketen – für Ihr Business",
-        "Webseiten die einfach funktionieren ohne Aufwand",
-        "100% Preisgarantie – 100% Erfolg für ihr Business"]
-
-    function changePerks() {
-
-    }
-
-    /* =====================================
       Parallax
    ====================================== */
 

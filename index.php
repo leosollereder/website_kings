@@ -196,14 +196,12 @@ $error = "";
             </div>
             <div class="col-12 col-lg-5 d-flex align-items-center">
                 <div class="banner-text-right wow fadeInRight" data-depth="0.1">
-                    <div class="overlay-yellow-box"></div>
                     <div class="banner-right-area-content">
                         <h2>Website<span class="main-bold-text"> KINGS</span></h2>
-                        <p style="opacity: 0">Wir setzen deine Wunsch-Website in Rekordzeit um. Und das ganz ohne
-                            Probleme oder jegliche
-                            Komplikationen.</p>
-                        <p id="perks"></p>
-                        <a href="#skill-sec" class="btn btn-large btn-rounded white-tran-black-btn scroll">Get
+                        <div id="perks-wrapper">
+                            <p id="perks">Professionelle Websites – ohne Kopfschmerzen – full service!</p>
+                        </div>
+                        <a href="#skill-sec" id="banner-btn" class="btn btn-large btn-rounded white-tran-black-btn scroll">Get
                             started</a>
                     </div>
                 </div>

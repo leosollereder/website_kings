@@ -398,6 +398,11 @@ header{
 
 .navbar-nav .nav-item .nav-link{
     color: #202020;
+    transition: all .2s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #1ab7ea;
 }
 
 /* ===================================
@@ -706,7 +711,7 @@ header{
     transition: background-color .5s ease;
 }
 .social-icons-simple li a:hover{
-    background-color:#02aeb3;
+    background-color: #1ab7ea;
 }
 
 .social-icons-simple li.animated-wrap a:hover{
@@ -772,15 +777,6 @@ header{
     color: #202020;
 }
 
-.overlay-yellow-box{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color:#39c5de;
-}
-
 #perks {
     position: absolute;
     top: 60%;
@@ -797,16 +793,19 @@ header{
 }
 
 .banner-text-right{
-    padding:50px 20px;
-    padding-bottom: 70px;
+    padding:50px;
     position: relative;
     margin-right: 20px;
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+    background-color:#39c5de;
 }
 
 .banner-right-area-content{
     position: relative;
     z-index: 11;
-    color: #ffffff;
+    height: fit-content;
 }
 .banner-right-area-content h2{
     font-size: 60px;
@@ -821,6 +820,20 @@ header{
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.6px;
+}
+
+#banner-btn {
+    margin-top: 20px;
+}
+
+#perks-wrapper {
+    position: relative;
+    height: 30px;
+}
+
+#perks {
+    position: relative;
+    top: 0;
 }
 
 .banner-right-area-content p{
@@ -2448,6 +2461,10 @@ header{
 
 /*Breakpoint*/
 @media screen and (max-width:991px){
+    #perks-wrapper {
+        position: relative;
+        height: 50px;
+    }
 
     .mission-content > i {
         display: none;
@@ -3015,6 +3032,9 @@ header{
 }
 
 @media (max-width: 575.98px) {
+    #perks-wrapper {
+        height: 80px;
+    }
 
     .side-menu {
         width: 100%;
@@ -3087,7 +3107,9 @@ header{
 }
 
 @media (max-width: 400px) {
-
+    #perks-wrapper {
+        height: 105px;
+    }
 }
 
  /*Medium devices (tablets, 768px and up)*/
