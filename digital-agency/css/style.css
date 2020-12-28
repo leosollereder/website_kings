@@ -1950,6 +1950,10 @@ header{
     transform: rotate(-30deg);
 }
 
+#privacy div {
+    margin-bottom: 50px;
+}
+
 
 /* ===================================
    Footer
