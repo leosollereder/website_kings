@@ -1950,8 +1950,20 @@ header{
     transform: rotate(-30deg);
 }
 
-#privacy div {
-    margin-bottom: 50px;
+#privacy h2 {
+    margin-top: 50px;
+}
+
+#privacy h3 {
+    margin-top: 30px;
+}
+
+#privacy h3 {
+    margin-top: 30px;
+}
+
+#privacy p {
+    margin-bottom: 10px;
 }
 
 
