@@ -104,26 +104,25 @@ $error = "";
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link wow fadeInUp scroll" href="#home">HOME</a>
+                                    <a class="nav-link wow fadeInUp scroll" href="index.php#home">HOME</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link wow fadeInDown scroll1" href="#about-sec">ABOUT</a>
+                                    <a class="nav-link wow fadeInDown scroll1" href="index.php#about-sec">ABOUT</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link wow fadeInUp scroll"
-                                       href="#company-portfolio-section">PORTFOLIO</a>
+                                    <a class="nav-link wow fadeInDown scroll" href="index.php#package-section">PACKAGES</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link wow fadeInDown scroll" href="#testimonial-sec">CLIENTS</a>
+                                    <a class="nav-link wow fadeInDown scroll" href="index.php#testimonial-sec">CLIENTS</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link wow fadeInDown scroll" href="#testimonial-sec">FAQ</a>
+                                    <a class="nav-link wow fadeInDown scroll" href="index.php#faq-sec">FAQ</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link wow fadeInUp scroll" href="#lastest-blog">PROJECTS</a>
+                                    <a class="nav-link wow fadeInUp scroll" href="index.php#latest-customers">PROJECTS</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link wow fadeInDown scroll" href="#contact-sec">CONTACT</a>
+                                    <a class="nav-link wow fadeInDown scroll" href="index.php#contact-sec">CONTACT</a>
                                 </li>
                             </ul>
                         </div>
@@ -144,25 +143,25 @@ $error = "";
             <nav class="side-nav w-100">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#home">Home</a>
+                        <a class="nav-link scroll" href="index.php#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll1" href="#about-sec">About</a>
+                        <a class="nav-link scroll1" href="index.php#about-sec">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#company-portfolio-section">Portfolio</a>
+                        <a class="nav-link scroll1" href="index.php#package-section">Packages</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#testimonial-sec">Clients</a>
+                        <a class="nav-link scroll" href="index.php#testimonial-sec">Clients</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#testimonial-sec">FAQ</a>
+                        <a class="nav-link scroll" href="index.php#faq-sec">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#lastest-blog">Projects</a>
+                        <a class="nav-link scroll" href="index.php#latest-customers">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#contact-sec">Contact</a>
+                        <a class="nav-link scroll" href="index.php#contact-sec">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -409,7 +408,7 @@ $error = "";
 <!-- Skill section start-->
 
 <!--team section start-->
-<section class="team-section" id="team-section">
+<section class="package-section" id="package-section">
     <svg class="separator__svg" id="team-header-svg" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none"
          fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg">
         <path d="M 100 100 V 10 L 0 100"/>
@@ -675,7 +674,7 @@ $error = "";
 <!--testimonial section end-->
 
 <!--faq section start-->
-<section class="faq-sec" id="faq">
+<section class="faq-sec" id="faq-sec">
     <div class="container">
         <div class="col-12">
             <div class="faq-title">
@@ -742,7 +741,7 @@ $error = "";
 <!--brands section end-->
 
 <!--Lastest Blog section start-->
-<section class="lastest-blog" id="lastest-blog">
+<section class="latest-customers" id="latest-customers">
     <svg class="separator__svg" id="blog-header-svg" width="100%" height="200" viewBox="0 0 100 100"
          preserveAspectRatio="none" fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg">
         <path d="M 100 100 V 10 L 0 100"/>
@@ -874,29 +873,14 @@ $error = "";
 <footer class="footer-style-1">
 
     <div class="container">
-        <div-- class="row align-items-center">
+        <div class="row">
             <!--Social-->
-            <div class="col-lg-6 text-center text-lg-left" style="padding-bottom: 2vh;">
-                <p class="company-about fadeIn">Hier findest du unser <a class="foot-links" href="">Impressum</a></p>
-                <p class="company-about fadeIn">Hier findest du Informationen zu unserer <a class="foot-links" href="">DSGVO</a>
+            <div class="col-lg-6 legal-container">
+                <p class="company-about fadeIn spacer"><a class="foot-links" href="impressum.html">Impressum</a></p>
+                <p class="company-about fadeIn"><a class="foot-links" href="datenschutz.html">Datenschutzerklärung</a>
                 </p>
             </div>
-            <!--div class="col-lg-6 row">
-                <a href="">Impressum</a>
-                <a href="">DSGVO</a>
-                <div class="footer-social text-center text-lg-left ">
-                    <ul class="list-unstyled">
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-facebook-f"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-twitter"></i></a></li>
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-google-plus-g"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-linkedin-in"></i></a></li>
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-instagram"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-pinterest-p"></i></a></li>
-                    </ul>
-                </div>
-            </div-->
-            <!--Text-->
-            <div class="col-lg-6 text-center text-lg-right">
+            <div class="col-lg-6 text-lg-right">
                 <p class="company-about fadeIn">© 2020 MegaOne. Made With Love By <a href="javascript:void(0);">Themesindustry</a>
                 </p>
             </div>

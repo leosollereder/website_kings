@@ -1182,7 +1182,7 @@ header{
 /* ===================================
    Team SECTION
 ====================================== */
-.team-section{
+.package-section{
     padding-top: 180px;
     padding-bottom: 180px;
     background-color:#202020;
@@ -1206,7 +1206,7 @@ header{
     height: 200px;
 }
 
-.team-section .team-details .sub-title{
+.package-section .team-details .sub-title{
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -1215,7 +1215,7 @@ header{
     margin-bottom: 20px;
 }
 
-.team-section .card-container {
+.package-section .card-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1250,7 +1250,7 @@ header{
 }
 
 
-.team-section .card {
+.package-section .card {
     height: 450px;
     border-radius: 20px;
     transition: transform 0.2s ease;
@@ -1259,15 +1259,15 @@ header{
     width: 23%;
 }
 
-.team-section .card:hover{
+.package-section .card:hover{
     transform: scale(1.05);
 }
 
-.team-section .description {
+.package-section .description {
     margin: 0;
 }
 
-.team-section .card-header {
+.package-section .card-header {
     background-color: #1ab7ea;
     color: white;
     width: 100%;
@@ -1275,7 +1275,7 @@ header{
     border-top-right-radius: inherit;
 }
 
-.team-section .title{
+.package-section .title{
     color: #ffffff;
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
@@ -1283,16 +1283,16 @@ header{
     margin-bottom: 30px;
 }
 
-.team-section p {
+.package-section p {
     margin: 0;
 }
 
-.team-section .item {
+.package-section .item {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.team-section .circle {
+.package-section .circle {
     position: absolute;
     z-index: 1111;
     height: 40px;
@@ -1305,7 +1305,7 @@ header{
     cursor: pointer;
 }
 
-.team-section .card-content {
+.package-section .card-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1314,12 +1314,12 @@ header{
     padding: 8%;
 }
 
-.team-section .price {
+.package-section .price {
     font-size: 2em;
     color: #1ab7ea;
 }
 
-.team-section .button {
+.package-section .button {
     border: #1ab7ea solid;
     background-color: #1ab7ea;
     height: 40px;
@@ -1329,7 +1329,7 @@ header{
     transition: all 0.2s ease;
 }
 
-.team-section .button:hover {
+.package-section .button:hover {
     background-color: white;
     color: #1ab7ea;
 }
@@ -1727,7 +1727,7 @@ header{
 
 /* FAQ Section End */
 
-.lastest-blog {
+.latest-customers {
     padding-top: 200px;
     padding-bottom: 250px;
     background-color: #202020;
@@ -1749,33 +1749,33 @@ header{
     transform: rotateY(180deg);
 }
 
-.lastest-blog .blog-content h1{
+.latest-customers .blog-content h1{
     font-size: 60px;
     color: #ffffff;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
 }
 
-.lastest-blog .blog-content h1 span{
+.latest-customers .blog-content h1 span{
     font-size: 60px;
     color: #39c5de;
 }
 
-.lastest-blog .blog-content p{
+.latest-customers .blog-content p{
     color: #ffffff;
     margin-top: 30px;
     margin-bottom: 35px;
 }
 
-.lastest-blog .blog-img{
+.latest-customers .blog-img{
     position: relative;
     width: 90%;
     top: 35px;
 }
-.lastest-blog .blog-img img{
+.latest-customers .blog-img img{
     width: 100%;
 }
-.lastest-blog .blog-img .slider-img{
+.latest-customers .blog-img .slider-img{
     width: 84%;
     position: absolute;
     left: 51.1%;
@@ -1784,7 +1784,7 @@ header{
 }
 
 
-.lastest-blog .circle{
+.latest-customers .circle{
     position: absolute;
     z-index: 1111;
     height: 40px;
@@ -1817,12 +1817,12 @@ header{
     transition: .5s ease all;
 }
 
-.lastest-blog:hover #blog-circle-right , .lastest-blog:hover #blog-circle-left{
+.latest-customers:hover #blog-circle-right , .latest-customers:hover #blog-circle-left{
     opacity: 1;
 }
 
 
-.lastest-blog .pot-2{
+.latest-customers .pot-2{
     position: absolute;
     z-index: 1111;
     left: 450px;
@@ -1956,11 +1956,13 @@ header{
 ====================================== */
 
 .footer-style-1{
-    padding: 5rem 0;
+    margin: 5rem 0 0 0;
+    padding: 2rem 0;
+    background-color: #202020;
+    color: white;
 }
 
 .footer-style-1 .foot-links {
-    font-weight: 600;
 }
 
 .footer-social ul{
@@ -1998,7 +2000,23 @@ header{
 
 .company-about{
     font-size: 14px;
+    margin: 0;
 }
+
+.legal-container {
+    display: flex;
+    justify-content: left;
+}
+
+.legal-container p {
+    flex-basis: auto;
+    flex-grow: 0!important;
+}
+
+.spacer {
+    padding-right: 40px;
+}
+
 
 
 /* ===================================
@@ -2373,6 +2391,29 @@ header{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ===================================
     Media Queries
    ====================================== */
@@ -2470,13 +2511,13 @@ header{
         display: none;
     }
 
-    .team-section .card-container {
+    .package-section .card-container {
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
     }
 
-    .team-section .card {
+    .package-section .card {
         width: 46%;
         margin-top: 2%;
         margin-bottom: 2%;
@@ -2579,6 +2620,12 @@ header{
     }
     .blog-post-navigation{
         padding: 4rem 0;
+    }
+
+    .legal-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
     }
 
     /* STANDALONE */
@@ -2717,13 +2764,13 @@ header{
         top: -1px;
         height: 160px;
     }
-    .team-section {
+    .package-section {
         padding-top: 180px;
     }
-    .team-section .team-details .title {
+    .package-section .team-details .title {
         font-size: 45px;
     }
-    .team-section .circle {
+    .package-section .circle {
         display: none;
     }
     .testimonial-team .owl-item.center .item {
@@ -2770,16 +2817,16 @@ header{
         top: -1px;
         height: 150px;
     }
-    .lastest-blog .blog-content h1 {
+    .latest-customers .blog-content h1 {
         font-size: 60px;
     }
-    .lastest-blog .blog-content h1 span {
+    .latest-customers .blog-content h1 span {
         font-size: 60px;
     }
-    .lastest-blog .blog-img {
+    .latest-customers .blog-img {
         width: 100%;
     }
-    .lastest-blog .pot-2 {
+    .latest-customers .pot-2 {
         position: absolute;
         z-index: 1111;
         left: 322px;
@@ -2791,7 +2838,7 @@ header{
         bottom: -1px;
         height: 150px;
     }
-    .lastest-blog .circle {
+    .latest-customers .circle {
         display: none;
     }
     .contact-sec .contact-form {
@@ -2829,11 +2876,11 @@ header{
         grid-template-columns: 60% 30% 30% 30% 40%;
     }
 
-    .team-section .card-container {
+    .package-section .card-container {
         flex-direction: column;
     }
 
-    .team-section .card {
+    .package-section .card {
         width: 80%;
         margin-top: 5%;
         margin-bottom: 5%;
@@ -2933,13 +2980,13 @@ header{
         top: -2px;
         height: 100px;
     }
-    .team-section {
+    .package-section {
         padding-top: 150px;
     }
-    .team-section .team-details .title {
+    .package-section .team-details .title {
         font-size: 45px;
     }
-    .team-section .circle {
+    .package-section .circle {
         display: none;
     }
     .testimonial-team .owl-item.center .item {
@@ -2983,13 +3030,13 @@ header{
         top: -1px;
         height: 100px;
     }
-    .lastest-blog .blog-content h1 {
+    .latest-customers .blog-content h1 {
         font-size: 45px;
     }
-    .lastest-blog .blog-content h1 span {
+    .latest-customers .blog-content h1 span {
         font-size: 45px;
     }
-    .lastest-blog .blog-img {
+    .latest-customers .blog-img {
         width: 100%;
     }
     #blog-foot-svg {
@@ -3058,7 +3105,7 @@ header{
         top: 66px;
     }
 
-    .lastest-blog .pot-2 {
+    .latest-customers .pot-2 {
         left: 100px;
         bottom: 0px;
         width: 40%;
@@ -3214,15 +3261,15 @@ header{
     }
 
     /*Blog */
-    .lastest-blog .blog-content h1 {
+    .latest-customers .blog-content h1 {
         font-size: 50px;
     }
 
-    .lastest-blog .blog-content h1 span {
+    .latest-customers .blog-content h1 span {
         font-size: 50px;
     }
 
-    .lastest-blog .circle {
+    .latest-customers .circle {
         height: 35px;
         width: 35px;
     }
@@ -3257,7 +3304,7 @@ header{
     .about-sec img {
         left: 410px;
     }
-    .lastest-blog .pot-2 {
+    .latest-customers .pot-2 {
         left: 500px;
     }
 }

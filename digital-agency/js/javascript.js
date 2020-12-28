@@ -7,7 +7,7 @@ let counter = 0;
 let perks = [
     "Professionelle Websites – ohne Kopfschmerzen – full service!",
     "In einfachen Paketen – für Ihr Business",
-    "Webseiten die einfach funktionieren ohne Aufwand",
+    "Webseiten, die einfach funktionieren - Ohne Aufwand",
     "100% Preisgarantie – 100% Erfolg für ihr Business"]
 
 function changePerks() {
