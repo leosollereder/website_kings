@@ -468,7 +468,7 @@ $error = "";
                                 <p>Preis</p>
                                 <h3 class="price">Auf Anfrage</h3>
                             </div>
-                            <button class="button"><a class="scroll" href="#contact-sec" onclick="changeSelect('HERO')">Jetzt
+                            <button class="button"><a class="scroll" href="#contact-sec" onclick="changeSelect('ENTERPRISE')">Jetzt
                                     kaufen!</a></button>
                         </div>
                     </div>
@@ -541,49 +541,7 @@ $error = "";
                 <div class="grid-item"><i class="fas fa-check"></i></div>
                 <div class="grid-item"><i class="fas fa-check"></i></div>
                 <!--Video-->
-                <div class="grid-item grid-left">Video</div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item">Auf Anfrage</div>
-                <!--Webshop-->
-                <div class="grid-item grid-left">Webshop</div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item">Auf Anfrage</div>
-                <!--Werbung auf Google, Facebook-->
-                <div class="grid-item grid-left">Werbung auf Google, Facebook</div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item">Auf Anfrage</div>
-                <!--Workshops-->
-                <div class="grid-item grid-left">Workshops</div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item">Auf Anfrage</div>
-                <!--Gewinnspiele-->
-                <div class="grid-item grid-left">Gewinnspiele</div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item">Auf Anfrage</div>
-                <!--Gamification-->
-                <div class="grid-item grid-left">Gamification</div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item">Auf Anfrage</div>
-                <!--Landingpages-->
-                <div class="grid-item grid-left">Landingpages</div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item">Auf Anfrage</div>
-                <!--Blogartikel-->
-                <div class="grid-item grid-left">Blogartikel</div>
+                <div class="grid-item grid-left">Video, Webshop, Werbung, Workshops, Gewinnspiele, Gamification, Landingpages, Blogartikel </div>
                 <div class="grid-item"></div>
                 <div class="grid-item"></div>
                 <div class="grid-item"></div>
@@ -824,6 +782,7 @@ $error = "";
                         <input type="email" name="userEmail" placeholder="Email-Addresse *" class="form-control">
                         <label>Paketauswahl</label>
                         <select id="package" name="package" class="form-control">
+                            <option value="ENTERPRISE">ENTERPRISE</option>
                             <option value="HERO">HERO</option>
                             <option value="PRO" selected>PRO</option>
                             <option value="STARTER">STARTER</option>
@@ -855,11 +814,11 @@ $error = "";
                         mach dir einen Termin aus!
                     </p>
                     <ul>
-                        <li><i aria-hidden="true" class="fas fa-map-marker-alt"></i>Teststraße 25, 1120 Wien</li>
+                        <li><i aria-hidden="true" class="fas fa-map-marker-alt"></i>Thurngasse 8/14, 1090 Wien</li>
                         <li><i aria-hidden="true" class="fas fa-phone-volume"></i>
-                            <span>+1 631 1234 5678</span>
+                            <span>+43 677 64169669</span>
                         </li>
-                        <li><i aria-hidden="true" class="fas fa-envelope"></i><a href="mailto:email@website.com">email@website.com</a>
+                        <li><i aria-hidden="true" class="fas fa-envelope"></i><a href="mailto:office@contentkings.at">office@contentkings.at</a>
                         </li>
                     </ul>
                 </div>
