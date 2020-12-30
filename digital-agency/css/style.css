@@ -260,9 +260,9 @@ section{padding: 7.5rem 0;}
 
 /*upper-nav*/
 
-/*html{*/
-/*    scroll-behavior: smooth;*/
-/*}*/
+html{
+    scroll-behavior: smooth;
+}
 
 .center-block {
     display: -webkit-box;
@@ -2424,7 +2424,6 @@ header{
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 768px) {
-
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -2465,6 +2464,12 @@ header{
     }
     .parallax-box h5 {
         font-size: 1rem;
+    }
+
+    .beratung form {
+        width: 80vw;
+        padding-top: 50px;
+        margin: auto;
     }
 
     .partners-slider {
@@ -2874,6 +2879,7 @@ header{
 }
 /*@media (max-width: 575.98px) {*/
 @media (max-width: 767px) {
+
 
     .contents-sec .container .grid-container {
         grid-template-columns: 60% 30% 30% 30% 40%;
