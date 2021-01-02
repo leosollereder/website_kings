@@ -23,7 +23,7 @@ $error = "";
     <!-- Page Title -->
     <title>Website-Kings</title>
     <!-- Favicon -->
-    <link href="assets/logo/black_crown_white_background.png" rel="icon">
+    <link href="assets/logo/crown_blue.svg" rel="icon">
     <!-- Bundle -->
     <link href="vendor/css/bundle.min.css" rel="stylesheet">
     <!-- Plugin Css -->
@@ -99,8 +99,8 @@ $error = "";
             <div class="row">
                 <div class="col-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand bg-dark" href="index-digital-agency.html"><img
-                                src="assets/logo/crown_white.png"></a>
+                        <a class="navbar-brand bg-dark" href="#home"><img height="auto" width="auto"
+                                src="assets/logo/crown_white_no_text.svg"></a>
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
@@ -139,7 +139,7 @@ $error = "";
     <div class="side-menu hidden side-menu-opacity">
         <div class="inner-wrapper">
             <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
-            <a class="navbar-brand"><img src="assets/logo/crown_white.png" alt="logo"></a>
+            <a class="navbar-brand"><img src="assets/logo/crown_white.svg" alt="logo"></a>
             <nav class="side-nav w-100">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -839,10 +839,6 @@ $error = "";
                 <p class="company-about fadeIn"><a class="foot-links" href="datenschutz.html">Datenschutzerklärung</a>
                 </p>
             </div>
-            <div class="col-lg-6 text-lg-right">
-                <p class="company-about fadeIn">© 2020 MegaOne. Made With Love By <a href="javascript:void(0);">Themesindustry</a>
-                </p>
-            </div>
     </div>
     </div>
 </footer>
@@ -852,7 +848,7 @@ $error = "";
     <div class="row no-gutters">
         <div class="col-12 d-flex justify-content-center align-items-center">
             <div class="logo-fixed-scroll">
-                <img src="assets/logo/crown_white.png" alt="logo">
+                <img src="assets/logo/crown_white_no_text.svg" alt="logo">
             </div>
             <div class="fixed-icon-scroll">
                 <a href="javascript:void(0)" id="sidemenu_toggle1"><i class="lni lni-menu"></i></a>

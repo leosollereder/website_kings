@@ -378,6 +378,8 @@ header{
 
 .navbar .navbar-brand img{
     max-width: 70px;
+    height: 100%;
+    width: 100%;
 }
 
 .navbar-nav{
