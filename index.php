@@ -398,9 +398,9 @@ $error = "";
                             }
                         } else {
                             echo '<form action="vendor/contact-mailer-beratung.php" method="post">
-                            <input name="beratungmail" type="email" placeholder="Deine E-Mail" required>
-                            <button type="submit">Senden</button>
-                        </form>';
+                            <input name="beratungmail" id="beratungmail" type="email" placeholder="Deine E-Mail" required>
+                            <button type="submit" id="getInfos">Senden</button>
+                            </form>';
                         }
                         ?>
 
@@ -608,9 +608,9 @@ $error = "";
                                         fertig!
                                     </p>
                                     <div class="img-holder">
-                                        <img src="assets/images/customers/customer_1.JPG">
+                                        <img src="assets/images/customers/customer_2.JPG">
                                     </div>
-                                    <h4 class="user-name">Leo Sollereder</h4>
+                                    <h4 class="user-name">Martin Lückl</h4>
                                 </div>
                                 <div class="item text-center wow fadeInUp" data-wow-delay=".3s">
                                     <div class="icon-holder">
@@ -621,21 +621,6 @@ $error = "";
                                         Nur
                                         eine Woche nachdem ich Kontakt aufgenommen hatte, bekam ich die Website schon
                                         zugesendet.
-                                    </p>
-                                    <div class="img-holder">
-                                        <img src="assets/images/customers/customer_1.JPG">
-                                    </div>
-                                    <h4 class="user-name">Leo Sollereder</h4>
-                                </div>
-                                <div class="item text-center wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="icon-holder">
-                                        <i class="fas fa-quote-right"></i>
-                                    </div>
-                                    <p class="text">
-                                        Eigentlich wollte ich gar keine Website, weil ich dachte, das sei zu viel
-                                        Arbeit.
-                                        Aber dank Website-Kings werde ich nun von zahlreichen neuen Kunden online
-                                        gefunden.
                                     </p>
                                     <div class="img-holder">
                                         <img src="assets/images/customers/customer_1.JPG">

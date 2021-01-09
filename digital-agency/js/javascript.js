@@ -29,3 +29,15 @@ function changePerks() {
 }
 
 changePerks();
+
+
+
+
+
+
+$('#getInfos').click(function () {
+    if($('#beratungmail').type === 'text') {
+        $('#beratungmail').type = 'email';
+        event.preventDefault();
+    }
+})
