@@ -1090,6 +1090,26 @@ header{
     z-index: 5;
 }
 
+
+
+.step .button {
+    border: #1ab7ea solid;
+    background-color: #1ab7ea;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    margin-top: -10px;
+    transition: all 0.2s ease;
+    z-index: 20;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.step .button:hover {
+    background-color: white;
+    color: #1ab7ea;
+}
+
 .step div{
     width: 80%;
 }
@@ -3100,6 +3120,10 @@ header{
 }
 
 @media (max-width: 575.98px) {
+    .step .button {
+        width: 60%;
+    }
+
     #perks-wrapper {
         height: 80px;
     }

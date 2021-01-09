@@ -330,8 +330,10 @@ $error = "";
                         <div class="step">
                             <div>
                                 <h4>Dein passendes Paket wählen</h4>
-                                <p>Wenn Du gerne dazu beraten werden möchtest machen wir das sehr gerne.
-                                    <br><a style="font-weight: bolder" href="#contact-sec">Hier gehts zum Kontaktformular</a></p>
+                                <p>Wenn Du gerne dazu beraten werden möchtest machen wir das sehr gerne.</p>
+                                <button class="button"><a class="scroll" href="#step-mail"
+                                                          onclick="changeSelect('STARTER')">Kontaktieren</a>
+                                </button>
                                 <h1 class="number">1</h1>
                             </div>
                             <div class="translatey50">
@@ -385,7 +387,7 @@ $error = "";
                         </div>
                     </div>
 
-                    <div data-aos="zoom-in" class="beratung">
+                    <div data-aos="zoom-in" class="beratung" id="step-mail">
                         <h3>Hol dir dein kostenloses Beratungsgespräch!</h3>
 
                         <?php
