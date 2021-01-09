@@ -10,7 +10,7 @@ if($_POST)
 
     $mail = new PHPMailer();
 
-    $your_email = "efurspam@gmail.com";
+    $your_email = "office@contentkings.at";
 
 
     //Start the session
