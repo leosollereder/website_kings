@@ -387,7 +387,7 @@ $error = "";
                         </div>
                     </div>
 
-                    <div data-aos="zoom-in" class="beratung" id="step-mail">
+                    <div data-aos="zoom-in" class="beratung">
                         <h3>Hol dir dein kostenloses Beratungsgespräch!</h3>
 
                         <?php
@@ -884,6 +884,18 @@ $error = "";
 
 
     </body>
+
+    <!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->
+    <script type="text/javascript" src="//www.freeprivacypolicy.com/public/cookie-consent/3.1.0/cookie-consent.js"></script>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"light","language":"de","website_name":"Websitekings","cookies_policy_url":"https://websitekings.at/datenschutz#cookies"});
+        });
+    </script>
+
+    <noscript>Cookie Consent by <a href="https://www.FreePrivacyPolicy.com/free-cookie-consent/" rel="nofollow noopener">FreePrivacyPolicy.com</a></noscript>
+    <!-- End Cookie Consent -->
+
     <!-- JavaScript -->
     <script src="vendor/js/bundle.min.js"></script>
     <!-- Plugin Js -->
@@ -897,8 +909,8 @@ $error = "";
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <!-- Kekse -->
-    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-    <script src="digital-agency/js/cookies.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script src="digital-agency/js/cookies.js"></script>-->
 
 
     <!-- custom script-->
@@ -908,6 +920,41 @@ $error = "";
 
     <script src="digital-agency/js/aos.js"></script>
     <script src="digital-agency/js/javascript.js"></script>
+
+
+    <!-- Google Analytics -->
+    <script type="text/plain" cookie-consent="tracking" async
+            src="https://www.googletagmanager.com/gtag/js?id=258227604"></script>
+    <script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag("js", new Date());
+gtag("config", "258227604");
+
+    </script>
+    <!-- end of Google Analytics-->
+
+    <!-- Facebook Pixel Code -->
+    <script cookie-consent="tracking" type="text/plain">
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window,document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '885760415525287');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1"
+             src="https://www.facebook.com/tr?id=885760415525287&ev=PageView
+&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
 
 
     </html>
