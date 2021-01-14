@@ -610,7 +610,7 @@ $error = "";
                                         fertig!
                                     </p>
                                     <div class="img-holder">
-                                        <img src="assets/images/customers/customer_2.JPG">
+                                        <img src="assets/images/customers/customer_2.jpg">
                                     </div>
                                     <h4 class="user-name">Martin Lückl</h4>
                                 </div>
