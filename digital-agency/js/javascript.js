@@ -5,10 +5,9 @@ function changeSelect(chosen_package) {
 let counter = 0;
 
 let perks = [
-    "Professionelle Websites – ohne Kopfschmerzen – full service!",
-    "In einfachen Paketen – für Ihr Business",
-    "Webseiten, die einfach funktionieren - Ohne Aufwand",
-    "100% Preisgarantie – 100% Erfolg für ihr Business"]
+    "Deine Website ohne Aufwand – zum Fixpreis.",
+    "Online Shop statt Corona-Stop.",
+    "Deine neue Website - Google optimiert und ohne Aufwand."]
 
 function changePerks() {
 

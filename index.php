@@ -107,26 +107,26 @@ $error = "";
                             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item active">
-                                        <a class="nav-link wow fadeInUp scroll" href="index.php#home">HOME</a>
+                                        <a class="nav-link wow fadeInUp scroll" href="#home">HOME</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link wow fadeInDown scroll1" href="index.php#about-sec">ABOUT</a>
+                                        <a class="nav-link wow fadeInDown scroll1" href="#about-sec">ABOUT</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link wow fadeInDown scroll" href="index.php#package-section">PACKAGES</a>
+                                        <a class="nav-link wow fadeInDown scroll" href="#package-section">PAKETE</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link wow fadeInDown scroll" href="index.php#testimonial-sec">CLIENTS</a>
+                                        <a class="nav-link wow fadeInDown scroll" href="#testimonial-sec">KUNDEN</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link wow fadeInDown scroll" href="index.php#faq-sec">FAQ</a>
+                                        <a class="nav-link wow fadeInDown scroll" href="#faq-sec">FAQ</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link wow fadeInUp scroll" href="index.php#latest-customers">PROJECTS</a>
+                                        <a class="nav-link wow fadeInUp scroll" href="#latest-customers">PROJEKTE</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link wow fadeInDown scroll"
-                                           href="index.php#contact-sec">CONTACT</a>
+                                           href="index.php#contact-sec">KONTAKT</a>
                                     </li>
                                 </ul>
                             </div>
@@ -147,25 +147,25 @@ $error = "";
                 <nav class="side-nav w-100">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link scroll" href="index.php#home">Home</a>
+                            <a class="nav-link scroll" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll1" href="index.php#about-sec">About</a>
+                            <a class="nav-link scroll1" href="#about-sec">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll1" href="index.php#package-section">Packages</a>
+                            <a class="nav-link scroll1" href="#package-section">Pakete</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll" href="index.php#testimonial-sec">Clients</a>
+                            <a class="nav-link scroll" href="#testimonial-sec">Kunden</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll" href="index.php#faq-sec">FAQ</a>
+                            <a class="nav-link scroll" href="#faq-sec">FAQ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll" href="index.php#latest-customers">Projects</a>
+                            <a class="nav-link scroll" href="#latest-customers">Projekte</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll" href="index.php#contact-sec">Contact</a>
+                            <a class="nav-link scroll" href="#contact-sec">Kontakt</a>
                         </li>
                     </ul>
                 </nav>
@@ -203,7 +203,7 @@ $error = "";
                         <div class="banner-right-area-content">
                             <h2>Website<span class="main-bold-text"> KINGS</span></h2>
                             <div id="perks-wrapper">
-                                <p id="perks">Professionelle Websites – ohne Kopfschmerzen – full service!</p>
+                                <p id="perks">Deine Website ohne Aufwand – zum Fixpreis.</p>
                             </div>
                             <a href="#skill-sec" id="banner-btn"
                                class="btn btn-large btn-rounded white-tran-black-btn scroll">Get
@@ -232,9 +232,11 @@ $error = "";
                 <div class="mission-content">
                     <p>
                         <i>
-                            "Webseite Kings – wir bauen Websites die funktionieren.<br>
+                            "Website Kings – wir bauen Websites die funktionieren.<br>
                             Ohne Aufwand für Sie, zum fixen Preis, in klaren Paketen.<br>
-                            Google optimiert, einfach zu warten und einfach großartig."
+                            Google optimiert, einfach zu warten und einfach großartig.<br>
+                            Sie machen einen tollen Job – wir machen den Rest."
+
                         </i>
                     </p>
                     <i class="fas fa-quote-right"></i>
@@ -247,8 +249,8 @@ $error = "";
     <section class="about-sec" id="about-sec">
         <svg id="about-header-svg" class="separator__svg" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none"
              fill="#39c5de" version="1.1" xmlns="http://www.w3.org/2000/svg">
-            <path d="M 100 100 V 10 L 0 100" fill="#39c5de"/>
-            <path d="M 30 73 L 100 18 V 10 Z" fill="#39c5de" stroke-width="0"/>
+            <path d="M 100 100 V 10 L 0 100" fill="#1A393C"/>
+            <path d="M 30 73 L 100 18 V 10 Z" fill="#1A393C" stroke-width="0"/>
         </svg>
         <div class="container">
             <div class="row">
@@ -350,9 +352,9 @@ $error = "";
                             </div>
                             <div>
                                 <h4>Infos an uns</h4>
-                                <p>Schicke uns alle Deine Wünsche, Inhalte, Texte, Bilder – alles was Du gerne auf
-                                    Deiner neuen Webseite ausdrücken, zeigen und erreichen möchtest – damit wir Dich
-                                    und Dein Business erfolgreich präsentieren können.</p>
+                                <p>Wir sagen dir genau, wie viele Fotos und welche Texte und Inhalte wir von dir
+                                    benötigen, um deine Homepage nach deinen Vorstellungen umsetzen zu können. Gemeinsam
+                                    schaffen wir eine Website, die dich und dein Business erfolgreich präsentiert. </p>
                                 <h1 class="number">2</h1>
                             </div>
                         </div>
@@ -361,10 +363,10 @@ $error = "";
                     <div data-aos="fade-up-right" class="step-wrapper">
                         <div class="step">
                             <div>
-                                <h4>Start the Coding!</h4>
-                                <p>Unsere erfahrenen Entwickler beginnen Deine neue Webseite zu programmieren, die
-                                    Texter geben Deinen Inhalten den letzten Schliff und die Grafik arbeitet an der
-                                    optischen Umsetzung</p>
+                                <h4>Lass uns beginnen</h4>
+                                <p>Unsere erfahrenen Entwickler beginnen deine neue Webseite zu programmieren, die
+                                    Texter geben deinen Inhalten den letzten Schliff und die Grafik arbeitet an der
+                                    optischen Umsetzung.</p>
                                 <h1 class="number">3</h1>
                             </div>
                             <div class="translatey50">
@@ -379,10 +381,10 @@ $error = "";
                                 <i class="fas fa-laugh-beam"></i>
                             </div>
                             <div id="beratung">
-                                <h4>Go live!</h4>
-                                <p>Deine neue Webseite wird auf den Server übersiedelt und ist ab sofort unter Deiner
-                                    Wunschdomain abrufbar, ebenso wie Deine Mails – und Du bekommst eine
-                                    Einschulung von uns.</p>
+                                <h4>Ziel erreicht</h4>
+                                <p>Deine neue Webseite wird auf den Server übersiedelt und ist ab sofort unter deiner
+                                    Wunschdomain abrufbar, ebenso wie deine Mails. Natürlich bekommst du von uns auch
+                                    eine Einschulung. </p>
                                 <h1 class="number">4</h1>
                             </div>
                         </div>
@@ -436,11 +438,13 @@ $error = "";
                         <div class="card text-center end">
                             <h2 class="card-header">Starter</h2>
                             <div class="card-content">
-                                <p class="description">Ideal für alle, die ihren Fuß in die Tür bekommen möchten.</p>
+                                <p class="description">Für das eigene Yoga-Studio, die Boutique, den Verein oder die
+                                    Praxis. Wofür auch immer du eine Homepage benötigst. Dieses Paket ist zum
+                                    Losstarten. </p>
                                 <div class="bottom-container">
                                     <div class="price-container">
                                         <p>Für nur</p>
-                                        <h3 class="price">1.990,-</h3>
+                                        <h3 class="price">1.490,-</h3>
                                     </div>
                                     <button class="button"><a class="scroll" href="#contact-sec"
                                                               onclick="changeSelect('STARTER')">Jetzt kaufen!</a>
@@ -451,12 +455,12 @@ $error = "";
                         <div class="card text-center center">
                             <h2 class="card-header">Pro</h2>
                             <div class="card-content">
-                                <p class="description">Sie haben es bereits geschafft, jetzt ist Zeit für ein
-                                    Upgrade.</p>
+                                <p class="description">Für kleine Webshops und beispielsweise KMUs, die ihre Kunden
+                                    direkt ansprechen und sich besser vermarkten wollen.</p>
                                 <div class="bottom-container">
                                     <div class="price-container">
                                         <p>Für nur</p>
-                                        <h3 class="price">2.990,-</h3>
+                                        <h3 class="price">1.990,-</h3>
                                     </div>
                                     <button class="button"><a class="scroll" href="#contact-sec"
                                                               onclick="changeSelect('PRO')">Jetzt
@@ -467,11 +471,11 @@ $error = "";
                         <div class="card text-center start">
                             <h2 class="card-header">Hero</h2>
                             <div class="card-content">
-                                <p class="description">Ihr Unternehmen gehört zu den ganz Großen.</p>
+                                <p class="description">Das sorgenfreie All-in Paket</p>
                                 <div class="bottom-container">
                                     <div class="price-container">
                                         <p>Für nur</p>
-                                        <h3 class="price">3.990,-</h3>
+                                        <h3 class="price">2.990,-</h3>
                                     </div>
                                     <button class="button"><a class="scroll" href="#contact-sec"
                                                               onclick="changeSelect('HERO')">Jetzt
@@ -482,7 +486,7 @@ $error = "";
                         <div class="card text-center start">
                             <h2 class="card-header">Enterprise</h2>
                             <div class="card-content">
-                                <p class="description">Für alle, die noch mehr wollen.</p>
+                                <p class="description">Für alle, die noch mehr erreichen wollen.</p>
                                 <div class="bottom-container">
                                     <div class="price-container">
                                         <p>Preis</p>
@@ -508,7 +512,7 @@ $error = "";
     <!--contents section-->
 
     <section class="contents-sec padding-top position-relative" id="contents-sec">
-        <div class="container">
+        <div class="container" id="content-container">
             <div class="col-12 col-lg-7 offset-lg-5 text-center text-lg-right contents-title">
                 <h1 class="heading">WAS IST DRIN?</h1>
             </div>
@@ -521,63 +525,58 @@ $error = "";
                     <div class="grid-item grid-header">HERO</div>
                     <div class="grid-item grid-header">ENTERPRISE</div>
                     <!--Professionelle Firmenwebsite-->
-                    <div class="grid-item grid-left">Professionelle Firmenwebsite</div>
+                    <div class="grid-item grid-left">Professionelle Firmenwebseite, mobil optimiert, DSGVO konform</div>
                     <div class="grid-item"><i class="fas fa-check"></i></div>
                     <div class="grid-item"><i class="fas fa-check"></i></div>
                     <div class="grid-item"><i class="fas fa-check"></i></div>
                     <div class="grid-item"><i class="fas fa-check"></i></div>
                     <!--Website Hosting-->
-                    <div class="grid-item grid-left">Website Hosting</div>
+                    <div class="grid-item grid-left">Hosting inkl. Domain*</div>
                     <div class="grid-item"><i class="fas fa-check"></i></div>
                     <div class="grid-item"><i class="fas fa-check"></i></div>
                     <div class="grid-item"><i class="fas fa-check"></i></div>
                     <div class="grid-item"><i class="fas fa-check"></i></div>
                     <!--Domain inkl.-->
-                    <div class="grid-item grid-left">Domain inkl.</div>
-                    <div class="grid-item"><i class="fas fa-check"></i></div>
-                    <div class="grid-item"><i class="fas fa-check"></i></div>
-                    <div class="grid-item"><i class="fas fa-check"></i></div>
-                    <div class="grid-item"><i class="fas fa-check"></i></div>
+                    <div class="grid-item grid-left">E-Mail Adressen</div>
+                    <div class="grid-item">2</div>
+                    <div class="grid-item">5</div>
+                    <div class="grid-item">10</div>
+                    <div class="grid-item">Unlimitiert</div>
                     <!--Server einrichten-->
-                    <div class="grid-item grid-left">Server einrichten</div>
-                    <div class="grid-item"><i class="fas fa-check"></i></div>
-                    <div class="grid-item"><i class="fas fa-check"></i></div>
-                    <div class="grid-item"><i class="fas fa-check"></i></div>
-                    <div class="grid-item"><i class="fas fa-check"></i></div>
+                    <div class="grid-item grid-left">Anzahl Subseiten</div>
+                    <div class="grid-item">3</div>
+                    <div class="grid-item">5</div>
+                    <div class="grid-item">8</div>
+                    <div class="grid-item">Unlimitiert</div>
                     <!--Eigene Mailadresse-->
-                    <div class="grid-item grid-left">Eigene Mailadresse</div>
-                    <div class="grid-item"><i class="fas fa-check"></i></div>
+                    <div class="grid-item grid-left">Webshop</div>
+                    <div class="grid-item"></div>
                     <div class="grid-item"><i class="fas fa-check"></i></div>
                     <div class="grid-item"><i class="fas fa-check"></i></div>
                     <div class="grid-item"><i class="fas fa-check"></i></div>
                     <!--Anzahl Subseiten-->
-                    <div class="grid-item grid-left">Anzahl Subseiten</div>
-                    <div class="grid-item">3</div>
-                    <div class="grid-item">5</div>
-                    <div class="grid-item">5</div>
-                    <div class="grid-item">5</div>
-                    <!--Fotoshooting-->
-                    <div class="grid-item grid-left">Fotoshooting</div>
+                    <div class="grid-item grid-left">Fotoshooting & Werbung</div>
                     <div class="grid-item"></div>
                     <div class="grid-item"></div>
                     <div class="grid-item"><i class="fas fa-check"></i></div>
                     <div class="grid-item"><i class="fas fa-check"></i></div>
-                    <!--Video-->
-                    <div class="grid-item grid-left">Video, Webshop, Werbung, Workshops, Gewinnspiele, Gamification,
-                        Landingpages, Blogartikel
+                    <!--Anzahl Subseiten-->
+                    <div class="grid-item grid-left">
+                        Blog Artikel, Werbung auf Google, Social Media, Video, Gewinnspiele, Workshops
                     </div>
                     <div class="grid-item"></div>
                     <div class="grid-item"></div>
                     <div class="grid-item"></div>
-                    <div class="grid-item">Auf Anfrage</div>
+                    <div class="grid-item"><i class="fas fa-check"></i></div>
                     <!--Webshop-->
                     <div class="grid-item grid-left">Preis</div>
+                    <div class="grid-item">1.490,-</div>
                     <div class="grid-item">1.990,-</div>
                     <div class="grid-item">2.990,-</div>
-                    <div class="grid-item">3.990,-</div>
                     <div class="grid-item">Auf Anfrage</div>
                 </div>
             </div>
+            <p>* im 1. Jahr, darauffolgende Jahre Domain 10,- / Server 10,-/Monat</p>
         </div>
     </section>
 
@@ -606,12 +605,12 @@ $error = "";
                                         <i class="fas fa-quote-right"></i>
                                     </div>
                                     <p class="text">
-                                        Das Beste an Website-Kings war, dass ich keinerlei Fachwissen benötigt habe. Ich
-                                        konnte einfach zwischen einigen Designs wählen, und schon war die Website
+                                        Die Websitekings haben meine Wünsche rasch und unkompliziert umgesetzt. Ich
+                                        konnte einfach zwischen einigen Designs wählen und schon war die Website
                                         fertig!
                                     </p>
                                     <div class="img-holder">
-                                        <img src="assets/images/customers/customer_2.JPG">
+                                        <img src="assets/images/customers/customer_2.jpg">
                                     </div>
                                     <h4 class="user-name">Martin Lückl</h4>
                                 </div>
@@ -620,10 +619,8 @@ $error = "";
                                         <i class="fas fa-quote-right"></i>
                                     </div>
                                     <p class="text">
-                                        Was ich besonders toll fand, war die kurze Zeit in der die Webpage bei mir war.
-                                        Nur
-                                        eine Woche nachdem ich Kontakt aufgenommen hatte, bekam ich die Website schon
-                                        zugesendet.
+                                        Zwei Wochen nachdem ich Kontakt aufgenommen hatte, bekam ich die Website schon
+                                        fertig zugesendet.
                                     </p>
                                     <div class="img-holder">
                                         <img src="assets/images/customers/customer_1.JPG">
@@ -661,18 +658,18 @@ $error = "";
                             <div class="plus"></div>
                         </div>
                         <div class="answer">
-                            Ja natürlich. Wir übernehmen den Wechsel für Sie. Ihre Domain und E-Mail Adressen können
-                            Sie mitnehmen.
+                            Ja natürlich. Wir übernehmen den Wechsel für dich. Deine Domain und die E-Mail Adressen
+                            kannst du mitnehmen.
                         </div>
                     </div>
                     <div class="item" data-aos="fade-up">
                         <div class="question">
-                            Es bleibt fix beim Paketpreis aus der Liste?
+                            Bleibt es wirklich fix beim Paketpreis aus der Liste?
                             <div class="plus"></div>
                         </div>
                         <div class="answer">
-                            Solange wir nicht von Außerirdischen gekidnappt werden garantieren wir, dass Ihre neue
-                            Seite in spätestens 4 Wochen zum vereinbarten Listenpreis online ist.
+                            Solange wir nicht von Außerirdischen gekidnappt werden, garantieren wir, dass deine neue
+                            Seite in spätestens 4 Wochen zum vereinbarten Preis online ist.
                         </div>
                     </div>
                     <div class="item" data-aos="fade-up">
@@ -681,17 +678,8 @@ $error = "";
                             <div class="plus"></div>
                         </div>
                         <div class="answer">
-                            Auf einem gesicherten Serverstandort in Deutschland der nach DIN ISO/IEC 27001
-                            ZERTIFIZIERT ist.
-                        </div>
-                    </div>
-                    <div class="item" data-aos="fade-up">
-                        <div class="question">
-                            Wie lange muss ich auf meine neue Webseite warten?
-                            <div class="plus"></div>
-                        </div>
-                        <div class="answer">
-                            Nach Erhalt aller Daten und Infos dauert die Erstellung maximal 20 Werktage.
+                            Auf einem gesicherten Serverstandort in Deutschland der nach DIN ISO/IEC 27001 zertifiziert
+                            ist.
                         </div>
                     </div>
                     <div class="item" data-aos="fade-up">
@@ -700,10 +688,12 @@ $error = "";
                             <div class="plus"></div>
                         </div>
                         <div class="answer">
-                            Sie kennen Ihr Unternehmen selbst am Besten und geben uns alle Fotos, Grafiken und Texte
-                            die Sie haben und wir bereiten alles bestmöglich auf. Sollten Sie Interesse an zusätzlichen
-                            Firmenvideos, Fotoshootings bis hin zur Visitenkarte oder dem Briefpapier haben helfen wir
-                            Ihnen sehr gerne weiter.
+                            Du kennst dein Unternehmen am besten, deshalb kommen die Bilder und Texte auch von dir. Wir
+                            sagen dir wie viele und welche Fotos wir benötigen und welche Texte erforderlich sind, damit
+                            deine neue Website ein Erfolg wird. Die Aufbereitung der Bilder und Texte ist dann unser
+                            Job. Wenn du zusätzlich ein Fotoshooting, ein Firmenvideo, neue Visitenkarten oder ein
+                            Firmenbriefpapier benötigst, bringen wir dich gerne mit den richtigen Personen zusammen, die
+                            diese Dinge für dich umsetzen können.
                         </div>
                     </div>
                 </div>
@@ -732,15 +722,6 @@ $error = "";
                                class="btn btn-large btn-rounded white-tran-yellow-btn">Zur Website</a>
                         </div>
                         <div class="slider-slide">
-                            <h1>SOLLEREDER</h1>
-                            <h1><span>.AT</span></h1>
-                            <p>Eine Portfolio-Website für einen selbstständigen Webdesigner. Authentisch und Idividuell
-                                mit
-                                dem Pro-Package.</p>
-                            <a href="https://sollereder.at/" target="_blank"
-                               class="btn btn-large btn-rounded white-tran-black-btn">Zur Website</a>
-                        </div>
-                        <div class="slider-slide">
                             <h1>Die Yoga</h1>
                             <h1><span>Lehrerin</span></h1>
                             <p>Eine Portfolio-Website für eine selbstständige Yogalehrerin. Ganz einfach und
@@ -763,9 +744,6 @@ $error = "";
                         <div class="slider-img">
                             <div class="img-slide">
                                 <img src="assets/projects/atlas.JPG" class="mockup-img">
-                            </div>
-                            <div class="img-slide">
-                                <img src="assets/projects/sollereder.png" class="mockup-img">
                             </div>
                             <div class="img-slide">
                                 <img src="assets/projects/yoga.JPG" class="mockup-img">
@@ -887,14 +865,23 @@ $error = "";
     </body>
 
     <!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->
-    <script type="text/javascript" src="//www.freeprivacypolicy.com/public/cookie-consent/3.1.0/cookie-consent.js"></script>
+    <script type="text/javascript"
+            src="//www.freeprivacypolicy.com/public/cookie-consent/3.1.0/cookie-consent.js"></script>
     <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function () {
-            cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"light","language":"de","website_name":"Websitekings","cookies_policy_url":"https://websitekings.at/datenschutz#cookies"});
+            cookieconsent.run({
+                "notice_banner_type": "simple",
+                "consent_type": "express",
+                "palette": "light",
+                "language": "de",
+                "website_name": "Websitekings",
+                "cookies_policy_url": "https://websitekings.at/datenschutz#cookies"
+            });
         });
     </script>
 
-    <noscript>Cookie Consent by <a href="https://www.FreePrivacyPolicy.com/free-cookie-consent/" rel="nofollow noopener">FreePrivacyPolicy.com</a></noscript>
+    <noscript>Cookie Consent by <a href="https://www.FreePrivacyPolicy.com/free-cookie-consent/"
+                                   rel="nofollow noopener">FreePrivacyPolicy.com</a></noscript>
     <!-- End Cookie Consent -->
 
     <!-- JavaScript -->
@@ -924,17 +911,24 @@ $error = "";
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script cookie-consent="tracking" type="text/plain" async src="https://www.googletagmanager.com/gtag/js?id=G-M8XDB6S5VN"></script>
+    <script cookie-consent="tracking" type="text/plain" async
+            src="https://www.googletagmanager.com/gtag/js?id=G-M8XDB6S5VN"></script>
     <script cookie-consent="tracking" type="text/plain">
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'G-M8XDB6S5VN');
+
+
+
+
+
+
+
     </script>
 
     <!-- end of Google Analytics-->
-
 
 
     <!-- Facebook Pixel Code -->
@@ -949,7 +943,14 @@ $error = "";
                 'https://connect.facebook.net/en_US/fbevents.js');
             fbq('init', '885760415525287');
             fbq('track', 'PageView');
-        </script>
+
+
+
+
+
+
+
+    </script>
     <noscript>
         <img height="1" width="1"
              src="https://www.facebook.com/tr?id=885760415525287&ev=PageView
