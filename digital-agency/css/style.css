@@ -751,7 +751,7 @@ header{
 ====================================== */
 
 .banner{
-    background-image: url("../../assets/images/couple2.jpg");
+    background-image: url("../../assets/images/couple.jpg");
     width: 100%;
     background-size:cover;
     background-position: center;
@@ -977,8 +977,8 @@ header{
     position: absolute;
     z-index: 1111;
     left: 300px;
-    transform: rotate(-6deg);
-    bottom: -100px;
+    height: 250px;
+    bottom: -20px;
 }
 
 /* ===================================
@@ -1093,8 +1093,8 @@ header{
 
 
 .step .button {
-    border: #1ab7ea solid;
-    background-color: #1ab7ea;
+    border: #F2A300 solid;
+    background-color: #F2A300;
     height: 40px;
     border-radius: 20px;
     color: white;
@@ -1107,7 +1107,7 @@ header{
 
 .step .button:hover {
     background-color: white;
-    color: #1ab7ea;
+    color: #000;
 }
 
 .step div{
@@ -1866,12 +1866,13 @@ header{
 }
 
 
-.latest-customers .pot-2{
-    position: absolute;
-    z-index: 1111;
-    left: 450px;
-    bottom: 30px;
-}
+/*.latest-customers .pot-2{*/
+/*    position: absolute;*/
+/*    height: 350px;*/
+/*    z-index: 1111;*/
+/*    left: 450px;*/
+/*    bottom: 30px;*/
+/*}*/
 
 
 
@@ -2766,6 +2767,7 @@ header{
 
     .about-sec {
         padding-top: 50px;
+        padding-bottom: 150px;
     }
     .about-sec .services-area .services:nth-child(3), .about-sec .services-area .services:nth-child(4) {
         transform: translateX(0px);
@@ -2790,8 +2792,8 @@ header{
     }
     .about-sec img {
         left: 150px;
-        bottom: -179px;
-        width: 50%;
+        width: 35%;
+        height: auto;
     }
 
     /*Skill Section Css*/
@@ -3007,8 +3009,7 @@ header{
     }
     .about-sec img {
         left: 100px;
-        bottom: -91px;
-        width: 60%;
+        width: 50%;
     }
 
     /*Skill Section Css*/

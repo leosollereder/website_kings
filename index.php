@@ -312,7 +312,7 @@ $error = "";
              fill="#ffffff" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <path d="M 100 100 V 10 L 0 100"/>
             <path d="M 30 73 L 100 18 V 10 Z" fill="#ffffff" stroke-width="0"/>
-            <img src="digital-agency/img/pot.png" class="wow slideInLeft" data-wow-delay="1s" alt="plant">
+            <img src="assets/images/123rf/laptop.png" class="wow slideInLeft" alt="laptop">
         </svg>
     </section>
     <!--About End-->
@@ -334,8 +334,7 @@ $error = "";
                             <div>
                                 <h4>Dein passendes Paket wählen</h4>
                                 <p>Wenn Du gerne dazu beraten werden möchtest machen wir das sehr gerne.</p>
-                                <button class="button"><a class="scroll" href="#step-mail"
-                                                          onclick="changeSelect('STARTER')">Kontaktieren</a>
+                                <button class="button"><a class="scroll" href="#beratung">Kontaktieren</a>
                                 </button>
                                 <h1 class="number">1</h1>
                             </div>
@@ -392,7 +391,6 @@ $error = "";
 
                     <div data-aos="zoom-in" class="beratung">
                         <h3>Hol dir dein kostenloses Beratungsgespräch!</h3>
-
                         <?php
                         if (isset($_SESSION['error'])) {
                             $error = $_SESSION['error'];
@@ -614,19 +612,19 @@ $error = "";
                                     </div>
                                     <h4 class="user-name">Martin Lückl</h4>
                                 </div>
-                                <div class="item text-center wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="icon-holder">
-                                        <i class="fas fa-quote-right"></i>
-                                    </div>
-                                    <p class="text">
-                                        Zwei Wochen nachdem ich Kontakt aufgenommen hatte, bekam ich die Website schon
-                                        fertig zugesendet.
-                                    </p>
-                                    <div class="img-holder">
-                                        <img src="assets/images/customers/customer_1.JPG">
-                                    </div>
-                                    <h4 class="user-name">Leo Sollereder</h4>
-                                </div>
+<!--                                <div class="item text-center wow fadeInUp" data-wow-delay=".3s">-->
+<!--                                    <div class="icon-holder">-->
+<!--                                        <i class="fas fa-quote-right"></i>-->
+<!--                                    </div>-->
+<!--                                    <p class="text">-->
+<!--                                        Zwei Wochen nachdem ich Kontakt aufgenommen hatte, bekam ich die Website schon-->
+<!--                                        fertig zugesendet.-->
+<!--                                    </p>-->
+<!--                                    <div class="img-holder">-->
+<!--                                        <img src="assets/images/customers/customer_1.JPG">-->
+<!--                                    </div>-->
+<!--                                    <h4 class="user-name">Leo Sollereder</h4>-->
+<!--                                </div>-->
                             </div>
                         </div>
                     </div>
@@ -763,7 +761,7 @@ $error = "";
              preserveAspectRatio="none" fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <path d="M 100 100 V 10 L 0 100"/>
             <path d="M 30 73 L 100 18 V 10 Z" fill="#fff" stroke-width="0"/>
-            <img src="digital-agency/img/pot-2.png" alt="plant" class="pot-2 wow slideInLeft" data-wow-delay=".5s">
+<!--            <img src="assets/images/123rf/laptop_top.png" alt="plant" class="pot-2 wow slideInLeft" data-wow-delay=".5s">-->
         </svg>
     </section>
     <!--Lastest Blog section start-->
