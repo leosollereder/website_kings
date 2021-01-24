@@ -1657,6 +1657,20 @@ header{
     margin-top: 60px;
 }
 
+.testimonial-sec .testimonial-area .testimonial-carousel .owl-carousel .owl-stage{
+    /*TODO löschen wenn zwei Customer da sind*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.testimonial-sec .testimonial-area .testimonial-carousel .owl-carousel .owl-stage .cloned{
+    /*TODO löschen wenn zwei Customer da sind*/
+    display: none;
+}
+
 /* FAQ Section */
 
 .faq-sec .faq-title .heading {
