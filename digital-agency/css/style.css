@@ -2566,6 +2566,10 @@ header{
 
 /*Breakpoint*/
 @media screen and (max-width:991px){
+    .cc_dialog.simple {
+        max-width: 100% !important;
+    }
+
     #perks-wrapper {
         position: relative;
         height: 50px;

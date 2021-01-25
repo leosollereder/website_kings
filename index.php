@@ -519,8 +519,8 @@ $error = "";
                     <!--Header-->
                     <div class="grid-item grid-header invisible"></div>
                     <div class="grid-item grid-header">STARTER</div>
+                    <div class="grid-item grid-header">BUSINESS</div>
                     <div class="grid-item grid-header">PRO</div>
-                    <div class="grid-item grid-header">HERO</div>
                     <div class="grid-item grid-header">ENTERPRISE</div>
                     <!--Professionelle Firmenwebsite-->
                     <div class="grid-item grid-left">Professionelle Firmenwebseite, mobil optimiert, DSGVO konform</div>
@@ -747,7 +747,7 @@ $error = "";
                                 <img src="assets/projects/yoga.JPG" class="mockup-img">
                             </div>
                             <div class="img-slide">
-                                <img src="assets/projects/armin.JPG" class="mockup-img">
+                                <img src="assets/projects/armin.png" class="mockup-img">
                             </div>
                         </div>
                     </div>
