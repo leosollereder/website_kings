@@ -451,7 +451,7 @@ $error = "";
                             </div>
                         </div>
                         <div class="card text-center center">
-                            <h2 class="card-header">Pro</h2>
+                            <h2 class="card-header">Business</h2>
                             <div class="card-content">
                                 <p class="description">Für kleine Webshops und beispielsweise KMUs, die ihre Kunden
                                     direkt ansprechen und sich besser vermarkten wollen.</p>
@@ -461,13 +461,13 @@ $error = "";
                                         <h3 class="price">1.990,-</h3>
                                     </div>
                                     <button class="button"><a class="scroll" href="#contact-sec"
-                                                              onclick="changeSelect('PRO')">Jetzt
+                                                              onclick="changeSelect('BUSINESS')">Jetzt
                                             kaufen!</a></button>
                                 </div>
                             </div>
                         </div>
                         <div class="card text-center start">
-                            <h2 class="card-header">Hero</h2>
+                            <h2 class="card-header">Pro</h2>
                             <div class="card-content">
                                 <p class="description">Das sorgenfreie All-in Paket</p>
                                 <div class="bottom-container">
@@ -476,7 +476,7 @@ $error = "";
                                         <h3 class="price">2.990,-</h3>
                                     </div>
                                     <button class="button"><a class="scroll" href="#contact-sec"
-                                                              onclick="changeSelect('HERO')">Jetzt
+                                                              onclick="changeSelect('PRO')">Jetzt
                                             kaufen!</a></button>
                                 </div>
                             </div>
@@ -780,8 +780,8 @@ $error = "";
                             <label>Paketauswahl</label>
                             <select id="package" name="package" class="form-control">
                                 <option value="ENTERPRISE">ENTERPRISE</option>
-                                <option value="HERO">HERO</option>
-                                <option value="PRO" selected>PRO</option>
+                                <option value="PRO">PRO</option>
+                                <option value="BUSINESS" selected>BUSINESS</option>
                                 <option value="STARTER">STARTER</option>
                             </select>
                             <!--input type="text" name="userSubject" placeholder="Subject" class="form-control"-->

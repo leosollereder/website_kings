@@ -24,7 +24,7 @@ if($_POST)
         $output = json_encode(
             array(
                 'type'=>'error',
-                'text' => 'Request must come from Ajax'
+                'text' => 'Da ist wohl etwas schiefgelaufen!'
             ));
 
         $_SESSION['error'] = true;
@@ -62,7 +62,7 @@ if($_POST)
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Neuer Beratungswunsch von Website-Kings';
-    $mail->Body  = "<h4 style='text-align: center;padding: 25px 15px;background-color: #0c6c9e;color: #FFFFFF;font-size:16px;width:90%;border-radius: 10px;'>Neuer Kunde hat Interesse an einem Beratungsgespräch!</h4><br><br>";
+    $mail->Body  = "<h4 style='text-align: center;padding: 25px 15px;background-color: #0c6c9e;color: #FFFFFF;font-size:16px;width:90%;border-radius: 10px;'>Neuer Kunde hat einen Beratungswunsch!</h4><br><br>";
 
     if(isset($_POST["beratungmail"])) {
         $mail->Body .= "<strong>Email: </strong>" . $beratungmail . "<br>";

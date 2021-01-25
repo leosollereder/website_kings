@@ -21,7 +21,7 @@ if($_POST)
         $output = json_encode(
             array(
                 'type'=>'error',
-                'text' => 'Request must come from Ajax'
+                'text' => 'Da ist wohl etwas schiefgelaufen!'
             ));
 
         die($output);
@@ -33,7 +33,7 @@ if($_POST)
     if(isset($_POST["userName"])) {
         if(!isset($_POST["userName"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -43,7 +43,7 @@ if($_POST)
     if(isset($_POST["firstName"]) && isset($_POST["lastName"])) {
         if(!isset($_POST["firstName"]) && !isset($_POST["lastName"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -54,7 +54,7 @@ if($_POST)
     if(isset($_POST["fatherName"])) {
         if(!isset($_POST["fatherName"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -64,7 +64,7 @@ if($_POST)
     if(isset($_POST["quoteName"])) {
         if(!isset($_POST["quoteName"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -74,7 +74,7 @@ if($_POST)
     if(isset($_POST["userAddress"])) {
         if(!isset($_POST["userAddress"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -84,7 +84,7 @@ if($_POST)
     if(isset($_POST["course"])) {
         if(!isset($_POST["course"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -95,7 +95,7 @@ if($_POST)
     if(isset($_POST["userEmail"])) {
         if(!isset($_POST["userEmail"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -105,7 +105,7 @@ if($_POST)
     if(isset($_POST["userPhone"])){
         if(!isset($_POST["userPhone"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -115,7 +115,7 @@ if($_POST)
     if(isset($_POST["userSubject"])) {
         if(!isset($_POST["userSubject"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -125,7 +125,7 @@ if($_POST)
     if(isset($_POST["userCity"])) {
         if(!isset($_POST["userCity"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -135,7 +135,7 @@ if($_POST)
     if(isset($_POST["projectType"])) {
         if(!isset($_POST["projectType"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -147,7 +147,7 @@ if($_POST)
     if(isset($_POST["propertyId"])) {
         if(!isset($_POST["propertyId"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -157,7 +157,7 @@ if($_POST)
     if(isset($_POST["propertyType"])) {
         if(!isset($_POST["propertyType"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -167,7 +167,7 @@ if($_POST)
     if(isset($_POST["quoteBudget"])) {
         if(!isset($_POST["quoteBudget"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -178,7 +178,7 @@ if($_POST)
     if(isset($_POST["service"])) {
         if(!isset($_POST["service"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -189,7 +189,7 @@ if($_POST)
     if(isset($_POST["reservationDate"])) {
         if(!isset($_POST["reservationDate"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -199,7 +199,7 @@ if($_POST)
     if(isset($_POST["totalPeople"])) {
         if(!isset($_POST["totalPeople"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -210,7 +210,7 @@ if($_POST)
     if(isset($_POST["reserveTime"])) {
         if(!isset($_POST["reserveTime"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -222,7 +222,7 @@ if($_POST)
     if(isset($_POST["userGender"])) {
         if(!isset($_POST["userGender"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -232,7 +232,7 @@ if($_POST)
     if(isset($_POST["userMessage"])) {
         if(!isset($_POST["userMessage"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -242,7 +242,7 @@ if($_POST)
     if(isset($_POST["package"])) {
         if(!isset($_POST["package"]))
         {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+            $output = json_encode(array('type'=>'error', 'text' => 'Bitte fülle alle Felder aus!'));
             die($output);
         }
         else {
@@ -262,14 +262,14 @@ if($_POST)
     if(isset($_POST["userEmail"])) {
         if (!filter_var($user_Email, FILTER_VALIDATE_EMAIL)) //email validation
         {
-            $output = json_encode(array('type' => 'error', 'text' => 'Please enter a valid email!'));
+            $output = json_encode(array('type' => 'error', 'text' => 'Bitte gib eine valide Email ein!'));
             die($output);
         }
     }
     if(isset($_POST["userMessage"])) {
         if (strlen($user_Message) < 5) //check emtpy message
         {
-            $output = json_encode(array('type' => 'error', 'text' => 'Too short message! Please enter something.'));
+            $output = json_encode(array('type' => 'error', 'text' => 'Bitte schreib uns eine längere Nachricht.'));
             die($output);
         }
     }
@@ -294,7 +294,7 @@ if($_POST)
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Neuer Auftrag von Website-Kings';
-    $mail->Body  = "<h4 style='text-align: center;padding: 25px 15px;background-color: #0c6c9e;color: #FFFFFF;font-size:16px;width:90%;border-radius: 10px;'>Neuer Auftrag für eine Website!</h4><br><br>";
+    $mail->Body  = "<h4 style='text-align: center;padding: 25px 15px;background-color: #0c6c9e;color: #FFFFFF;font-size:16px;width:90%;border-radius: 10px;'>Neuer Auftrag von Websitekings!</h4><br><br>";
 
     if(isset($_POST["userEmail"])) {
         $mail->Body .= "<strong>Email: </strong>" . $user_Email . "<br>";
@@ -358,7 +358,7 @@ if($_POST)
     if(isset($_POST["userMessage"])) {
         $mail->Body .= "<strong>Message: </strong><br><br><div style='background-color: #EDEFF2;padding:30px 15px;border-radius:10px;min-height:50px;width:90%;'>" . $user_Message . "</div><br>";
     }
-    $mail->Body .= '<strong>Best Regards,</strong><br>';
+    $mail->Body .= '<strong>Liebe Grüße,</strong><br>';
 
     if(isset($user_Name)) {
         $mail->Body .= $user_Name . "<br>";
@@ -371,10 +371,10 @@ if($_POST)
 
     if(!$mail->send())
     {
-        $output = json_encode(array('type'=>'error', 'text' => 'Could not send mail! Please check your PHP mail configuration.'));
+        $output = json_encode(array('type'=>'error', 'text' => 'Die Email konnte leider nicht gesendet werden.'));
         die($output);
     }else{
-        $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_Name .' Thank you for contacting us.'));
+        $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_Name .' Danke für deine Email!'));
         die($output);
     }
 }

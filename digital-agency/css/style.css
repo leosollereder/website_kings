@@ -404,7 +404,7 @@ header{
 }
 
 .navbar-nav .nav-item .nav-link:hover{
-    color: white;
+    color: hsl(0, 0%, 40%);
 }
 
 /* ===================================
@@ -1995,7 +1995,7 @@ header{
     font-size: 30px;
     margin-right: 20px;
     margin-bottom: 8px;
-    color: #a4dbda;
+    color: #1A393C;
 }
 .contact-sec .contact-details ul li i.addr{
     color: #f71c52;
