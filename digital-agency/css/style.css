@@ -720,6 +720,7 @@ header{
     background-color: transparent;
     color: #ffffff;
 }
+
 @-webkit-keyframes animationFade {
     from {
         opacity: 0;
@@ -782,17 +783,10 @@ header{
 #perks {
     position: absolute;
     top: 60%;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 200;
 }
 
-
-#perks2 {
-    position: absolute;
-    top: 60%;
-    font-size: 20px;
-    font-weight: 200;
-}
 
 .banner-text-right{
     padding:50px;
@@ -810,7 +804,7 @@ header{
     height: fit-content;
 }
 .banner-right-area-content h2{
-    font-size: 50px;
+    font-size: 46px;
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
     margin-bottom: 20px;
@@ -829,8 +823,11 @@ header{
 }
 
 #perks-wrapper {
+    padding-top: 8px;
     position: relative;
-    height: 30px;
+    line-height: 40px;
+    height: 100px;
+
 }
 
 #perks {
@@ -1919,6 +1916,7 @@ header{
     font-size: 16px;
     height: 50px;
     width: 100%;
+    -webkit-appearance: none!important;
 }
 
 .contact-sec .contact-form label{

@@ -110,7 +110,7 @@ $error = "";
                                         <a class="nav-link wow fadeInUp scroll" href="#home">HOME</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link wow fadeInDown scroll1" href="#about-sec">ABOUT</a>
+                                        <a class="nav-link wow fadeInDown scroll1" href="#about-sec">ÜBER</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link wow fadeInDown scroll" href="#package-section">PAKETE</a>
@@ -150,7 +150,7 @@ $error = "";
                             <a class="nav-link scroll" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll1" href="#about-sec">About</a>
+                            <a class="nav-link scroll1" href="#about-sec">Über</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link scroll1" href="#package-section">Pakete</a>
@@ -201,13 +201,12 @@ $error = "";
                 <div class="col-12 col-lg-5 d-flex align-items-center">
                     <div class="banner-text-right wow fadeInRight" data-depth="0.1">
                         <div class="banner-right-area-content">
-                            <h2>Website<span class="main-bold-text"> KINGS</span></h2>
+                            <h2>Website<b>KINGS</b></h2>
                             <div id="perks-wrapper">
                                 <p id="perks">Deine Website ohne Aufwand – zum Fixpreis.</p>
                             </div>
                             <a href="#skill-sec" id="banner-btn"
-                               class="btn btn-large btn-rounded white-tran-black-btn scroll">Get
-                                started</a>
+                               class="btn btn-large btn-rounded white-tran-black-btn scroll">Loslegen</a>
                         </div>
                     </div>
                 </div>
@@ -799,8 +798,7 @@ $error = "";
                         <div class="col-12">
                             <a href="javascript:void(0);"
                                class="btn yellow-and-black-btn rounded-pill w-100 contact_btn"><i
-                                        class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i> <b>Send
-                                    Message</b>
+                                        class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i> <b>Nachricht senden</b>
                             </a>
                         </div>
                     </form>
