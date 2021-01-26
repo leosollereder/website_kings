@@ -201,7 +201,7 @@ $error = "";
                 <div class="col-12 col-lg-5 d-flex align-items-center">
                     <div class="banner-text-right wow fadeInRight" data-depth="0.1">
                         <div class="banner-right-area-content">
-                            <h2>Website<b>KINGS</b></h2>
+                            <h2>Website<wbr><b>KINGS</b></h2>
                             <div id="perks-wrapper">
                                 <p id="perks">Deine Website ohne Aufwand – zum Fixpreis.</p>
                             </div>

@@ -2573,6 +2573,11 @@ header{
         height: 50px;
     }
 
+    #perks {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
     .mission-content > i {
         display: none;
     }
@@ -3205,6 +3210,10 @@ header{
 
 }
 @media (max-width: 360.98px) {
+    .banner-text-right {
+        padding: 25px;
+    }
+
     .banner .banner-row {
         height: 140vh;
         padding-top: 200px;
