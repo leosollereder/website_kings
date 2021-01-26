@@ -126,7 +126,7 @@ $error = "";
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link wow fadeInDown scroll"
-                                           href="index.php#contact-sec">KONTAKT</a>
+                                           href="#contact-sec">KONTAKT</a>
                                     </li>
                                 </ul>
                             </div>
