@@ -1660,12 +1660,11 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    pointer-events: none;
 }
 
 .testimonial-sec .testimonial-area .testimonial-carousel .owl-carousel .owl-stage .cloned{
     /*TODO löschen wenn zwei Customer da sind*/
-    display: none;
+
 }
 
 /* FAQ Section */

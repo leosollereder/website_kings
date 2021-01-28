@@ -201,7 +201,9 @@ $error = "";
                 <div class="col-12 col-lg-5 d-flex align-items-center">
                     <div class="banner-text-right wow fadeInRight" data-depth="0.1">
                         <div class="banner-right-area-content">
-                            <h2>Website<wbr><b>KINGS</b></h2>
+                            <h2>Website
+                                <wbr>
+                                <b>KINGS</b></h2>
                             <div id="perks-wrapper">
                                 <p id="perks">Deine Website ohne Aufwand – zum Fixpreis.</p>
                             </div>
@@ -611,19 +613,21 @@ $error = "";
                                     </div>
                                     <h4 class="user-name">Martin Lückl</h4>
                                 </div>
-<!--                                <div class="item text-center wow fadeInUp" data-wow-delay=".3s">-->
-<!--                                    <div class="icon-holder">-->
-<!--                                        <i class="fas fa-quote-right"></i>-->
-<!--                                    </div>-->
-<!--                                    <p class="text">-->
-<!--                                        Zwei Wochen nachdem ich Kontakt aufgenommen hatte, bekam ich die Website schon-->
-<!--                                        fertig zugesendet.-->
-<!--                                    </p>-->
-<!--                                    <div class="img-holder">-->
-<!--                                        <img src="assets/images/customers/customer_1.JPG">-->
-<!--                                    </div>-->
-<!--                                    <h4 class="user-name">Leo Sollereder</h4>-->
-<!--                                </div>-->
+
+                                <div class="item text-center wow fadeInUp">
+                                    <div class="icon-holder">
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                    <p class="text">
+                                        Unkompliziert, effizient und rasch in der Umsetzung; die WebsiteKings haben
+                                        meine Vorstellungen und Anforderungen praktisch umgesetzt und mein Projekt rasch
+                                        zum Laufen gebracht.“
+                                    </p>
+                                    <div class="img-holder">
+                                        <img src="assets/images/customers/customer_1.jpeg">
+                                    </div>
+                                    <h4 class="user-name">Rene Petzner</h4>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -760,7 +764,7 @@ $error = "";
              preserveAspectRatio="none" fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <path d="M 100 100 V 10 L 0 100"/>
             <path d="M 30 73 L 100 18 V 10 Z" fill="#fff" stroke-width="0"/>
-<!--            <img src="assets/images/123rf/laptop_top.png" alt="plant" class="pot-2 wow slideInLeft" data-wow-delay=".5s">-->
+            <!--            <img src="assets/images/123rf/laptop_top.png" alt="plant" class="pot-2 wow slideInLeft" data-wow-delay=".5s">-->
         </svg>
     </section>
     <!--Lastest Blog section start-->
@@ -798,7 +802,8 @@ $error = "";
                         <div class="col-12">
                             <a href="javascript:void(0);"
                                class="btn yellow-and-black-btn rounded-pill w-100 contact_btn"><i
-                                        class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i> <b>Nachricht senden</b>
+                                        class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i> <b>Nachricht
+                                    senden</b>
                             </a>
                         </div>
                     </form>
@@ -922,6 +927,7 @@ $error = "";
 
 
 
+
     </script>
 
     <!-- end of Google Analytics-->
@@ -939,6 +945,7 @@ $error = "";
                 'https://connect.facebook.net/en_US/fbevents.js');
             fbq('init', '885760415525287');
             fbq('track', 'PageView');
+
 
 
 
