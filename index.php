@@ -795,7 +795,7 @@ $error = "";
                         </div>
                         <div id="checkbox-wrapper">
                             <p>Mit dem Senden der Nachricht akzeptierst du die <a
-                                        href="#"><b>Datenschutzbedingungen</b></a></p>
+                                        href="datenschutz.html"><b>Datenschutzbedingungen</b></a></p>
                             <!--input id="checkbox" type="checkbox" name="checkbox" checked required>
                             <label for="checkbox">Ich habe die Datenschutzbedingungen akzeptiert</label-->
                         </div>
